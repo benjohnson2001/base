@@ -10,3 +10,10 @@ static const char *highlightfgcolor = "#CCCCCC";
 static float widthscaling = 1.0;
 static float heightscaling = 1.0;
 
+#define MODKEY Mod1Mask
+
+static Key keys[] = {
+	/* modifier                     key           function        argument */
+	{ MODKEY,                       XK_n,         togglebar,      {0} }                // toggle bar visibility          Alt+b
+};
+

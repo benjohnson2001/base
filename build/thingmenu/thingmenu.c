@@ -15,10 +15,12 @@
 #include <X11/Xutil.h>
 #include <X11/Xproto.h>
 #include <X11/extensions/XTest.h>
+#include <X11/XKBlib.h>
 
 /* macros */
-#define MAX(a, b)       ((a) > (b) ? (a) : (b))
-#define LENGTH(x)       (sizeof x / sizeof x[0])
+#define MAX(a, b)               ((a) > (b) ? (a) : (b))
+#define LENGTH(x)               (sizeof x / sizeof x[0])
+#define CLEANMASK(mask)         (mask & ~(numlockmask|LockMask) & (ShiftMask|ControlMask|Mod1Mask|Mod2Mask|Mod3Mask|Mod4Mask|Mod5Mask))
 
 /* enums */
 enum { ColFG, ColBG, ColLast };
@@ -54,6 +56,20 @@ typedef struct {
 	Bool forceexit;
 } Entry;
 
+typedef union {
+	int i;
+	unsigned int ui;
+	float f;
+	const void *v;
+} Arg;
+
+typedef struct {
+	unsigned int mod;
+	KeySym keysym;
+	void (*func)(const Arg *);
+	const Arg arg;
+} Key;
+
 /* function declarations */
 static void motionnotify(XEvent *e);
 static void keyrelease(XEvent *e);
@@ -76,19 +92,27 @@ static void setup(void);
 static int textnw(const char *text, uint len);
 static void unpress(Entry *e);
 static void updateentries(void);
+static void keypress(XEvent *e);
+static void togglebar(const Arg *arg);
+static void grabkeys(void);
+static void updatenumlockmask(void);
 
 /* variables */
 static int screen;
+static unsigned int numlockmask = 0;
 static void (*handler[LASTEvent]) (XEvent *) = {
-	[KeyRelease] = keyrelease,
 	[ButtonPress] = buttonpress,
 	[ButtonRelease] = buttonrelease,
-	[ConfigureNotify] = configurenotify,
-	[UnmapNotify] = unmapnotify,
-	[Expose] = expose,
+	[ConfigureNotify] = configurenotify,    
+    [Expose] = expose,
+	[KeyPress] = keypress,    
+	[KeyRelease] = keyrelease,
 	[LeaveNotify] = leavenotify,
-	[MotionNotify] = motionnotify
+	[MotionNotify] = motionnotify,
+	[UnmapNotify] = unmapnotify    
 };
+
+int icon_hide = 0;
 
 static Display *dpy;
 static DC dc;
@@ -99,6 +123,7 @@ static Bool running = True, horizontal = False;
  * wx = window x position; wy = window y position;
  */
 static int ww = 0, www = 0, wh = 0, wx = 0, wy = 0;
+static int icons_width =0, icons_height = 0;
 static char *name = "thingmenu";
 
 Entry **entries = NULL;
@@ -148,7 +173,7 @@ motionnotify(XEvent *e)
 void
 keyrelease(XEvent *e)
 {
-	int i;
+/*	int i;
 	XKeyEvent *xkey = &e->xkey;
 	KeySym key = XLookupKeysym(xkey, 0);
 
@@ -190,7 +215,7 @@ keyrelease(XEvent *e)
 	case XK_Escape:
 		running = False;
 		break;
-	}
+	}*/
 }
 
 void
@@ -230,6 +255,7 @@ cleanup(void)
 		XFreeFontSet(dpy, dc.font.set);
 	else
 		XFreeFont(dpy, dc.font.xfont);
+	XUngrabKey(dpy, AnyKey, AnyModifier, root);        
 	XFreePixmap(dpy, dc.drawable);
 	XFreeGC(dpy, dc.gc);
 	XDestroyWindow(dpy, win);
@@ -416,6 +442,7 @@ void
 setup(void)
 {
 	XSetWindowAttributes wa;
+
 	XTextProperty str;
 	XSizeHints *sizeh;
 	XClassHint *ch;
@@ -447,6 +474,9 @@ setup(void)
 			ww = www;
 		}
 	}
+    
+    icons_width = ww;
+    
 	if (!wh) {
 		if (horizontal) {
 			wh = dc.font.height * heightscaling;
@@ -454,6 +484,9 @@ setup(void)
 			wh = nentries * dc.font.height * heightscaling;
 		}
 	}
+    
+    icons_height = wh;
+    
 //	if (!wy)
 //		wy = (sh - wh) / 2;
 	if (wy < 0)
@@ -506,6 +539,8 @@ setup(void)
 	XMapRaised(dpy, win);
 	updateentries();
 	drawmenu();
+    
+    grabkeys();
 }
 
 int
@@ -605,6 +640,68 @@ usage(void)
 			"label0 cmd0 [label1 cmd1 ...]\n", argv0);
 	exit(1);
 }
+
+void
+togglebar(const Arg *arg) {
+
+if (!icon_hide)
+	XMoveResizeWindow(dpy, win, -1, -1, 1, 1);
+else
+    XMoveResizeWindow(dpy, win, wx, wy, icons_width, icons_height);
+
+    icon_hide = !icon_hide;
+}
+
+void
+keypress(XEvent *e) {
+	unsigned int i;
+	KeySym keysym;
+	XKeyEvent *ev;
+    
+	ev = &e->xkey;
+	keysym = XkbKeycodeToKeysym(dpy, (KeyCode)ev->keycode, 0, 0);
+    
+	for(i = 0; i < LENGTH(keys); i++)
+		if(keysym == keys[i].keysym
+		&& CLEANMASK(keys[i].mod) == CLEANMASK(ev->state)
+		&& keys[i].func)
+			keys[i].func(&(keys[i].arg));
+    
+    
+}
+
+void
+grabkeys(void) {
+	updatenumlockmask();
+	{
+		unsigned int i, j;
+		unsigned int modifiers[] = { 0, LockMask, numlockmask, numlockmask|LockMask };
+		KeyCode code;
+
+		XUngrabKey(dpy, AnyKey, AnyModifier, root);
+		for(i = 0; i < LENGTH(keys); i++)
+			if((code = XKeysymToKeycode(dpy, keys[i].keysym)))
+				for(j = 0; j < LENGTH(modifiers); j++)
+					XGrabKey(dpy, code, keys[i].mod | modifiers[j], root,
+						 True, GrabModeAsync, GrabModeAsync);
+	}
+}
+
+void
+updatenumlockmask(void) {
+	unsigned int i, j;
+	XModifierKeymap *modmap;
+
+	numlockmask = 0;
+	modmap = XGetModifierMapping(dpy);
+	for(i = 0; i < 8; i++)
+		for(j = 0; j < modmap->max_keypermod; j++)
+			if(modmap->modifiermap[i * modmap->max_keypermod + j]
+			   == XKeysymToKeycode(dpy, XK_Num_Lock))
+				numlockmask = (1 << i);
+	XFreeModifiermap(modmap);
+}
+
 
 int
 main(int argc, char *argv[])
