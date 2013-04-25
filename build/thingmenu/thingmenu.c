@@ -120,7 +120,7 @@ motionnotify(XEvent *e)
 	int i;
 
 	for(i = 0; i < nentries; i++) {
-		if(ev->x > entries[i]->x
+		if(ev->x + 1 > entries[i]->x
 				&& ev->x < entries[i]->x + entries[i]->w
 				&& ev->y > entries[i]->y
 				&& ev->y < entries[i]->y + entries[i]->h) {
@@ -204,7 +204,7 @@ buttonpress(XEvent *e)
 
 	ispressing = True;
 
-	if((en = findentry(ev->x, ev->y)))
+	if((en = findentry(ev->x+1, ev->y)))
 		press(en);
 }
 
@@ -219,7 +219,7 @@ buttonrelease(XEvent *e)
 
 	ispressing = False;
 
-	if((en = findentry(ev->x, ev->y)))
+	if((en = findentry(ev->x+1, ev->y)))
 		unpress(en);
 }
 
@@ -293,7 +293,7 @@ drawentry(Entry *e)
 	XSetForeground(dpy, dc.gc, dc.norm[ColFG]);
 	r.height -= 1;
 	r.width -= 1;
-	XDrawRectangles(dpy, dc.drawable, dc.gc, &r, 1);
+//	XDrawRectangles(dpy, dc.drawable, dc.gc, &r, 1);
 	XSetForeground(dpy, dc.gc, col[ColFG]);
 
 	l = e->label;
@@ -424,8 +424,8 @@ setup(void)
 	/* init screen */
 	screen = DefaultScreen(dpy);
 	root = RootWindow(dpy, screen);
-	sw = DisplayWidth(dpy, screen) - 1;
-	sh = DisplayHeight(dpy, screen) - 1;
+	sw = DisplayWidth(dpy, screen) + 1;
+	sh = DisplayHeight(dpy, screen) + 1;
 	initfont(font);
 
 	/* init atoms */
@@ -454,12 +454,12 @@ setup(void)
 			wh = nentries * dc.font.height * heightscaling;
 		}
 	}
-	if (!wy)
-		wy = (sh - wh) / 2;
+//	if (!wy)
+//		wy = (sh - wh) / 2;
 	if (wy < 0)
 		wy = sh + wy - wh;
-	if (!wx)
-		wx = (sw - ww) / 2;
+//	if (!wx)
+//		wx = (sw - ww) / 2;
 	if (wx < 0)
 		wx = sw + wx - ww;
 
