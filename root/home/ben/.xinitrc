@@ -1,3 +1,4 @@
+xset fp+ /home/ben/.fonts
+xset fp rehash
 urxvtd -q -o -f
-sleep 5 && fbpanel &
 exec dwm
