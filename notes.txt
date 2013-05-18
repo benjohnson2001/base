@@ -1,0 +1,2 @@
+to change the console font to terminus, run: sudo dpkg-reconfigure console-setup
+select Terminus and 12 pt font

@@ -38,24 +38,37 @@ urxvt*color15 : #EEEEEC
 ! ------------------------------------------
 
 urxvt*perl-ext-common: default,matcher
-urxvt*urlLauncher: /usr/bin/firefox
+urxvt*urlLauncher: /usr/local/bin/firefox
 urxvt*matcher.button: 1
 urxvt*colorUL: #86a2be
+urxvt.underlineColor: yellow
 
 
 ! Default font
 ! ------------------------
-urxvt*font: xft:Droid Sans Mono Slashed:pixelsize=12:antialias:true:hinting:true
+! urxvt*font: xft:Droid Sans Mono Slashed:pixelsize=12:antialias:true:hinting:true
 
-
+  urxvt*font: -*-terminusmodx.icons-medium-*-*--*-*-*-*-*-*-*-*
+  urxvt*boldFont: -*-terminusmodx.icons-medium-*-*--*-*-*-*-*-*-*-*
+  
 ! Adjust font size
 ! Ctrl-0  -  normal
 ! Ctrl-minus - small
 ! Ctrl-equals - large
 ! -------------------------------------------
-urxvt.keysym.C-0: command:\033]710;xft:Droid Sans Mono Slashed:pixelsize=12:antialias:true:hinting:true\007
-urxvt.keysym.C-minus: command:\033]710;xft:Droid Sans Mono Slashed:pixelsize=10:antialias:true:hinting:true\007
-urxvt.keysym.C-equal: command:\033]710;xft:Droid Sans Mono Slashed:pixelsize=14:antialias:true:hinting:true\007
+! from "man 7 urxvt" command
+! XTerm Operating System Commands
+!       "ESC ] Ps;Pt ST"
+! Ps = 710   Set normal fontset to Pt. Same as Ps = 50.
+! Ps = 711   Set bold fontset to Pt. Similar to Ps = 50 (Compile styles).
+! -------------------------------------------
+!
+! the below keyboard shortcuts set both normal and bold fonts to the normal font
+! so that bold fonts are effectively disabled
+
+urxvt.keysym.C-0: command:\033]710;-*-terminusmodx.icons-medium-*-*--*-*-*-*-*-*-*-*\007\033]711;-*-terminusmodx.icons-medium-*-*--*-*-*-*-*-*-*-*\007
+urxvt.keysym.C-minus: command:\033]710;xft:Droid Sans Mono Slashed:pixelsize=9:antialias:true:hinting:true\007\033]711;xft:Droid Sans Mono Slashed:pixelsize=9:antialias:true:hinting:true\007
+urxvt.keysym.C-equal: command:\033]710;xft:Droid Sans Mono Slashed:pixelsize=14:antialias:true:hinting:true\007\033]711;xft:Droid Sans Mono Slashed:pixelsize=14:antialias:true:hinting:true\007
 
 
 ! Other options
@@ -63,8 +76,10 @@ urxvt.keysym.C-equal: command:\033]710;xft:Droid Sans Mono Slashed:pixelsize=14:
 urxvt*scrollBar: true
 urxvt*scrollstyle: plain
 urxvt*saveLines: 65535
+urxvt.secondaryScroll: true
+
 urxvt*depth: 32
-urvxt*cursorBlink: true
+urxvt*cursorBlink: true
 !urxvt*internalBorder: 6
 
 
@@ -73,3 +88,6 @@ urvxt*cursorBlink: true
 xterm*Foreground: white
 xterm*Background: black
 xterm*scrollBar: false
+
+xterm*font: -*-terminusmodx.icons-medium-*-*--*-*-*-*-*-*-*-*
+xterm*boldFont: -*-terminusmodx.icons-medium-*-*--*-*-*-*-*-*-*-*
