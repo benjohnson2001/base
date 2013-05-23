@@ -9,12 +9,11 @@ POSARGS="-s -x -ww 1.0 -wh 1.0 -g -0-0"
 case "$1" in
 	"options")
 		clockmenu $POSARGS -- \
-            "$(date +%_I:%M)" "ps aux | grep 'urxvt -hold +sb +bc -cr black -geometry 66x8-3-17 -title cal -e sh -c cal -3 && xdotool key Shift+Prior && /home/ben/clockmenu/clock-menu.sh options 2> /dev/null' | awk '{print \$2}'| xargs kill && /home/ben/clockmenu/clock-menu.sh"
+            "$2" "ps aux | grep 'urxvt -hold +sb +bc -cr black -geometry 66x8-3-17 -title cal -e sh -c cal -3 && xdotool key Shift+Prior && /home/ben/clockmenu/clock-menu.sh options' | awk '{print \$2}' | xargs kill"
 		;;
 	*)
 		clockmenu $POSARGS -- \
-			"$(date +%_I:%M)" "urxvt -hold +sb +bc -cr black -geometry 66x8-3-17 -title cal -e sh -c \"cal -3 && xdotool key Shift+Prior && /home/ben/clockmenu/clock-menu.sh options 2> /dev/null\""
-
+			"$(date +%_I:%M)" "urxvt -hold +sb +bc -cr black -geometry 66x8-3-17 -title cal -e sh -c \"cal -3 && xdotool key Shift+Prior && /home/ben/clockmenu/clock-menu.sh options $(date +%_I:%M) 2> /dev/null\""
 		;;
 esac
 

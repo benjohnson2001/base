@@ -120,7 +120,7 @@ motionnotify(XEvent *e)
 	int i;
 
 	for(i = 0; i < nentries; i++) {
-		if(ev->x + 1 > entries[i]->x
+		if(ev->x > entries[i]->x
 				&& ev->x < entries[i]->x + entries[i]->w
 				&& ev->y > entries[i]->y
 				&& ev->y < entries[i]->y + entries[i]->h) {
@@ -204,7 +204,7 @@ buttonpress(XEvent *e)
 
 	ispressing = True;
 
-	if((en = findentry(ev->x+1, ev->y)))
+	if((en = findentry(ev->x, ev->y)))
 		press(en);
 }
 
@@ -219,7 +219,7 @@ buttonrelease(XEvent *e)
 
 	ispressing = False;
 
-	if((en = findentry(ev->x+1, ev->y)))
+	if((en = findentry(ev->x, ev->y)))
 		unpress(en);
 }
 
