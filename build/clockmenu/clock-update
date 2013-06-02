@@ -1,0 +1,12 @@
+#!/bin/bash
+
+while true;
+do
+
+pid=$(ps aux | grep 'clockmenu' | awk '{print $2}')
+
+clock-menu 2> /dev/null &
+sleep 15
+kill ${pid}
+
+done

@@ -13,7 +13,7 @@ case "$1" in
 		;;
 	*)
 		clockmenu $POSARGS -- \
-			"$(date +%_I:%M)" "urxvt -hold +sb +bc -cr black -geometry 66x8-3-17 -title cal -e sh -c \"cal -3 && xdotool key Shift+Prior && clock-menu options $(date +%_I:%M) 2> /dev/null\""
+			" $(date +%I:%M)" "urxvt -hold +sb +bc -cr black -geometry 66x8-3-17 -title cal -e sh -c \"cal -3 && xdotool key Shift+Prior && clock-menu options ' $(date +%I:%M)' 2> /dev/null\""
 		;;
 esac
 

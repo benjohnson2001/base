@@ -1,5 +1,5 @@
 static const Bool wmborder = False;
-static const char *font = "-*-terminusmodx.icons-*-*-*--12-*-*-*-*-*-*-*";
+static const char *font = "-*-stlarch-medium-r-*-*-10-*-*-*-*-*-*-*" "," "-*-terminusmodx.icons-*-*-*--12-*-*-*-*-*-*-*";
 static const char *normbgcolor = "#222222";
 static const char *normfgcolor = "#7D7D7D";
 static const char *pressbgcolor = "#222222";
