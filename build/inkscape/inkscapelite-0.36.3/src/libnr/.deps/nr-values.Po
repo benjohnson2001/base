@@ -1,0 +1,8 @@
+nr-values.o: nr-values.c nr-values.h ../libnr/nr-types.h \
+ ../libnr/nr_config.h
+
+nr-values.h:
+
+../libnr/nr-types.h:
+
+../libnr/nr_config.h:

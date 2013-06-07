@@ -1,0 +1,3468 @@
+# Turkish translation of sodipodi.
+# Copyright (C) 2000-2003 Free Software Foundation, Inc.
+# Fatih Demir <kabalak@gtranslator.org>, 2000.
+# Mufit Eribol <meribol@ere.com.tr>, 2000.
+# Arman Aksoy <armish@linux-sevenler.de>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sodipodi\n"
+"POT-Creation-Date: 2003-12-10 23:04-0700\n"
+"PO-Revision-Date: 2003-02-03 02:18+0200\n"
+"Last-Translator: Arman Aksoy (Armish) <armish@linux-sevenler.de>\n"
+"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: inkscape.desktop.in.h:1
+msgid "Inkscape"
+msgstr ""
+
+#: inkscape.desktop.in.h:2
+#, fuzzy
+msgid "SVG Vector Illustrator"
+msgstr "Vektöt Çizimcisi"
+
+#: src/bonobo/svg-doc-factory.c:35
+msgid "Could not create sodipodi-svg-doc factory"
+msgstr "sodipodi-svg-doc üreticisi yaratılamadı"
+
+#: src/desktop.c:748
+msgid "Zoom drawing if window size changes"
+msgstr ""
+
+#: src/desktop.c:753 src/verbs.c:486
+msgid "Zoom"
+msgstr "Büyüt"
+
+#: src/desktop.c:819
+#, fuzzy, c-format
+msgid "Inkscape: %s: %s: %d"
+msgstr "Sodipodi: %s: %s: %d"
+
+#: src/desktop.c:944
+#, c-format
+msgid "Document %s has unsaved changes, save them?"
+msgstr "%s dökümanı kaydedilmemiş değişiklikler içeriyor, kaydedilsin mi?"
+
+#. Page page
+#: src/desktop.c:1497 src/dialogs/align.c:335
+#: src/dialogs/desktop-properties.c:307 src/dialogs/document-properties.c:177
+#: src/dialogs/export.c:184 src/verbs.c:496
+msgid "Page"
+msgstr "Sayfa"
+
+#: src/desktop.c:1501 src/dialogs/align.c:336 src/dialogs/export.c:189
+#: src/verbs.c:498
+msgid "Drawing"
+msgstr "Çizim"
+
+#: src/desktop.c:1505 src/dialogs/align.c:337 src/dialogs/export.c:194
+#: src/verbs.c:499
+msgid "Selection"
+msgstr "Seçim"
+
+#: src/dialogs/align.c:221
+msgid "Right side of aligned objects to left side of anchor"
+msgstr "Çapanın soluna hizalanmış nesnelerin sağ tarafı"
+
+#: src/dialogs/align.c:224
+msgid "Left side of aligned objects to left side of anchor"
+msgstr "Çapanın soluna hizalanmış nesnelerin sol tarafı"
+
+#: src/dialogs/align.c:227
+msgid "Center horizontally"
+msgstr "Yatay hizala"
+
+#: src/dialogs/align.c:230
+msgid "Right side of aligned objects to right side of anchor"
+msgstr "Çapanın sağına hizalanmış nesnelerin sağ tarafı"
+
+#: src/dialogs/align.c:233
+msgid "Left side of aligned objects to right side of anchor"
+msgstr "Çapanın sağına hizalanmış nesnelerin sol tarafı"
+
+#: src/dialogs/align.c:237
+msgid "Bottom of aligned objects to top of anchor"
+msgstr "Çapanın üstüne hizalanmış nesnelerin altı"
+
+#: src/dialogs/align.c:240
+msgid "Top of aligned objects to top of anchor"
+msgstr "Çapanın üstüne hizalanmış nesnelerin üstü"
+
+#: src/dialogs/align.c:243
+msgid "Center vertically"
+msgstr "Dikey hizala"
+
+#: src/dialogs/align.c:246
+msgid "Bottom of aligned objects to bottom of anchor"
+msgstr "Çapanın altına hizalanmış nesnelerin altı"
+
+#: src/dialogs/align.c:249
+#, fuzzy
+msgid "Top of aligned objects to bottom of anchor"
+msgstr "Çapanın üstüne hizalanmış nesnelerin üstü"
+
+#: src/dialogs/align.c:252
+msgid "Align"
+msgstr "Hizala"
+
+#: src/dialogs/align.c:270
+msgid "Distribute left sides of objects at even distances"
+msgstr ""
+
+#: src/dialogs/align.c:273
+msgid "Distribute centres of objects at even distances horizontally"
+msgstr ""
+
+#: src/dialogs/align.c:276
+msgid "Distribute right sides of objects at even distances"
+msgstr ""
+
+#: src/dialogs/align.c:279
+msgid "Distribute horizontal distance between objects equally"
+msgstr ""
+
+#: src/dialogs/align.c:283
+msgid "Distribute top sides of objects at even distances"
+msgstr ""
+
+#: src/dialogs/align.c:286
+msgid "Distribute centres of objects at even distances vertically"
+msgstr ""
+
+#: src/dialogs/align.c:289
+msgid "Distribute bottom sides of objects at even distances"
+msgstr ""
+
+#: src/dialogs/align.c:292
+msgid "Distribute vertical distance between objects equally"
+msgstr ""
+
+#: src/dialogs/align.c:295
+#, fuzzy
+msgid "Distribute"
+msgstr "Özellik"
+
+#: src/dialogs/align.c:331
+msgid "Last selected"
+msgstr "Son seçilen"
+
+#: src/dialogs/align.c:332
+msgid "First selected"
+msgstr "İlk seçilen"
+
+#: src/dialogs/align.c:333
+msgid "Biggest item"
+msgstr "En büyük birim"
+
+#: src/dialogs/align.c:334
+msgid "Smallest item"
+msgstr "En küçük birim"
+
+#. Grid settings
+#. Notebook tab
+#: src/dialogs/desktop-properties.c:234 src/verbs.c:491
+msgid "Grid"
+msgstr "Izgara"
+
+#: src/dialogs/desktop-properties.c:246
+msgid "Show grid"
+msgstr "Izgarayı göster"
+
+#: src/dialogs/desktop-properties.c:247
+msgid "Snap to grid"
+msgstr "Izgaraya yakala"
+
+#: src/dialogs/desktop-properties.c:249
+#, fuzzy
+msgid "Horizontal lines"
+msgstr "yatay"
+
+#: src/dialogs/desktop-properties.c:250
+#, fuzzy
+msgid "Vertical lines"
+msgstr "dikey"
+
+#: src/dialogs/desktop-properties.c:260
+msgid "Grid units:"
+msgstr "Izgara birimleri:"
+
+#: src/dialogs/desktop-properties.c:262
+msgid "Origin X:"
+msgstr "Orijin X:"
+
+#: src/dialogs/desktop-properties.c:263
+msgid "Origin Y:"
+msgstr "Orijin Y:"
+
+#: src/dialogs/desktop-properties.c:265
+msgid "Spacing X:"
+msgstr "X aralığı:"
+
+#: src/dialogs/desktop-properties.c:266
+msgid "Spacing Y:"
+msgstr "Y aralığı:"
+
+#: src/dialogs/desktop-properties.c:269 src/dialogs/desktop-properties.c:294
+msgid "Snap units:"
+msgstr "Yakalama birimleri:"
+
+#: src/dialogs/desktop-properties.c:271 src/dialogs/desktop-properties.c:296
+msgid "Snap distance:"
+msgstr "Yakalama uzaklığı:"
+
+#: src/dialogs/desktop-properties.c:274
+msgid "Grid color:"
+msgstr "Izgara rengi"
+
+#: src/dialogs/desktop-properties.c:275
+msgid "Grid color"
+msgstr "Izgara rengi"
+
+#. Guidelines page
+#: src/dialogs/desktop-properties.c:279 src/verbs.c:492
+msgid "Guides"
+msgstr "Rehberler"
+
+#: src/dialogs/desktop-properties.c:289
+msgid "Show guides"
+msgstr "Rehberleri göster"
+
+#: src/dialogs/desktop-properties.c:290
+msgid "Snap to guides"
+msgstr "Rehberlere yakala"
+
+#: src/dialogs/desktop-properties.c:299
+msgid "Guides color:"
+msgstr "Rehber rengi:"
+
+#: src/dialogs/desktop-properties.c:300
+msgid "Guideline color"
+msgstr "Rehber satırı rengi"
+
+#: src/dialogs/desktop-properties.c:302
+msgid "Highlight color:"
+msgstr "İşaret rengi:"
+
+#: src/dialogs/desktop-properties.c:303
+msgid "Highlighted guideline color"
+msgstr "İşaretli rehber satırlarının rengi"
+
+#: src/dialogs/desktop-properties.c:317
+msgid "Show border"
+msgstr "Ayrıracı göster"
+
+#: src/dialogs/desktop-properties.c:319
+#, fuzzy
+msgid "Border on top of drawing"
+msgstr "Çizimi göster"
+
+#: src/dialogs/desktop-properties.c:589
+msgid "Close"
+msgstr "Kapat"
+
+#. Rendering settings
+#. Notebook tab
+#: src/dialogs/display-settings.c:135
+msgid "Rendering"
+msgstr "Sunum"
+
+#: src/dialogs/display-settings.c:147
+msgid "Oversample bitmaps:"
+msgstr "Örnek bitmapler:"
+
+#: src/dialogs/display-settings.c:158 src/verbs.c:435
+msgid "None"
+msgstr "Yok"
+
+#: src/dialogs/display-settings.c:162
+msgid "2x2"
+msgstr "2x2"
+
+#: src/dialogs/display-settings.c:166
+msgid "4x4"
+msgstr "4x4"
+
+#: src/dialogs/display-settings.c:170
+msgid "8x8"
+msgstr "8x8"
+
+#: src/dialogs/display-settings.c:174
+msgid "16x16"
+msgstr "16x16"
+
+#. Input settings
+#. Notebook tab
+#: src/dialogs/display-settings.c:185
+msgid "Input"
+msgstr "Girdi"
+
+#: src/dialogs/display-settings.c:196
+msgid "Default cursor tolerance:"
+msgstr "Öntanımlı kursor töleransı"
+
+#: src/dialogs/document-properties.c:168
+msgid "Document settings"
+msgstr "Döküman ayarları"
+
+#: src/dialogs/document-properties.c:189
+msgid "Paper size:"
+msgstr "Kağıt boyutu:"
+
+#: src/dialogs/document-properties.c:210
+msgid "Custom"
+msgstr "Özel"
+
+#. Custom paper frame
+#: src/dialogs/document-properties.c:217
+msgid "Custom paper"
+msgstr "Özel kağıt"
+
+#. Unit selector
+#: src/dialogs/document-properties.c:228 src/dialogs/export.c:202
+#: src/dialogs/object-properties.c:361 src/dialogs/transformation.c:447
+#: src/dialogs/transformation.c:622
+msgid "Units:"
+msgstr "Birimler:"
+
+#. Stroke width
+#: src/dialogs/document-properties.c:237 src/dialogs/export.c:212
+#: src/dialogs/export.c:240 src/dialogs/object-attributes.c:68
+#: src/dialogs/object-attributes.c:76 src/dialogs/object-properties.c:403
+#: src/dialogs/stroke-style.c:602 src/dialogs/tool-attributes.c:121
+#: src/dyna-draw-context.c:1097
+msgid "Width:"
+msgstr "Genişlik:"
+
+#: src/dialogs/document-properties.c:252 src/dialogs/export.c:221
+#: src/dialogs/export.c:248 src/dialogs/object-attributes.c:69
+#: src/dialogs/object-attributes.c:77 src/dialogs/object-properties.c:418
+msgid "Height:"
+msgstr "Yükseklik:"
+
+#. Export area frame
+#: src/dialogs/export.c:173
+msgid "Export area"
+msgstr "Bölümü dışarı aktar"
+
+#: src/dialogs/export.c:206
+msgid "x0:"
+msgstr "x0:"
+
+#: src/dialogs/export.c:209
+msgid "x1:"
+msgstr "x1:"
+
+#: src/dialogs/export.c:215
+msgid "y0:"
+msgstr "y0:"
+
+#: src/dialogs/export.c:218
+msgid "y1:"
+msgstr "y1:"
+
+#. for now, make sekection toggled by default
+#. fixme: make it remember user choice between invoications
+#. sp_export_area_toggled ((GtkToggleButton *) b, (GtkObject *) dlg);
+#. Bitmap size frame
+#: src/dialogs/export.c:231
+msgid "Bitmap size"
+msgstr "Bitmap boyutu"
+
+#: src/dialogs/export.c:240 src/dialogs/export.c:248
+msgid "pixels"
+msgstr "piksel"
+
+#: src/dialogs/export.c:244 src/dialogs/export.c:252
+msgid "dpi"
+msgstr "dpi"
+
+#. File entry
+#: src/dialogs/export.c:258
+#, fuzzy
+msgid "Filename"
+msgstr "Dosya adı:"
+
+#: src/dialogs/export.c:290
+msgid "Export"
+msgstr "Dışarı aktar"
+
+#: src/dialogs/fill-style.c:89
+msgid "Fill style"
+msgstr "Doldurma stili"
+
+#: src/dialogs/fill-style.c:124
+msgid "Fill Rule"
+msgstr "Doldurma Kuralları"
+
+#: src/dialogs/fill-style.c:138
+msgid "nonzero"
+msgstr "boş değil"
+
+#: src/dialogs/fill-style.c:143
+msgid "evenodd"
+msgstr "rastgele"
+
+#: src/dialogs/item-properties.c:77 src/dialogs/item-properties.c:274
+#: src/dialogs/item-properties.c:348 src/dialogs/item-properties.c:355
+msgid "ID"
+msgstr ""
+
+#: src/dialogs/item-properties.c:91
+msgid "Set ID"
+msgstr ""
+
+#: src/dialogs/item-properties.c:102
+msgid "Sensitive"
+msgstr "Duyarlı"
+
+#: src/dialogs/item-properties.c:107
+msgid "Visible"
+msgstr "Görünür"
+
+#: src/dialogs/item-properties.c:112
+msgid "Active"
+msgstr "Aktif"
+
+#: src/dialogs/item-properties.c:117
+msgid "Printable"
+msgstr "Yazılabilir"
+
+#: src/dialogs/item-properties.c:128
+msgid "Opacity:"
+msgstr "Donukluk:"
+
+#: src/dialogs/item-properties.c:147
+msgid "Transformation matrix"
+msgstr "Döünüşüm kalıbı"
+
+#: src/dialogs/item-properties.c:268
+msgid "Ref"
+msgstr ""
+
+#: src/dialogs/item-properties.c:350
+#, fuzzy
+msgid "ID invalid"
+msgstr "Numara geçerli"
+
+#: src/dialogs/item-properties.c:352
+msgid "ID exists"
+msgstr ""
+
+#: src/dialogs/item-properties.c:428 src/verbs.c:512
+msgid "Item properties"
+msgstr "Nesne özellikleri"
+
+#: src/dialogs/object-attributes.c:31
+msgid "Href:"
+msgstr "Değer:"
+
+#: src/dialogs/object-attributes.c:32
+msgid "Target:"
+msgstr "Hedef:"
+
+#: src/dialogs/object-attributes.c:33
+msgid "Type:"
+msgstr "Tip:"
+
+#: src/dialogs/object-attributes.c:34
+msgid "Role:"
+msgstr "İşlev:"
+
+#: src/dialogs/object-attributes.c:35
+msgid "Arcrole:"
+msgstr "Arcrole:"
+
+#: src/dialogs/object-attributes.c:36
+msgid "Title:"
+msgstr "Başlık:"
+
+#: src/dialogs/object-attributes.c:37 src/dialogs/tool-attributes.c:111
+msgid "Show:"
+msgstr "Göster:"
+
+#: src/dialogs/object-attributes.c:38
+msgid "Actuate:"
+msgstr "Çalıştır:"
+
+#: src/dialogs/object-attributes.c:43
+msgid "Sides:"
+msgstr "Bölümler:"
+
+#: src/dialogs/object-attributes.c:44 src/dialogs/object-attributes.c:54
+msgid "Center X:"
+msgstr "Merkezi X:"
+
+#: src/dialogs/object-attributes.c:45 src/dialogs/object-attributes.c:55
+msgid "Center Y:"
+msgstr "Merkezi Y:"
+
+#: src/dialogs/object-attributes.c:46
+msgid "R1:"
+msgstr "R1:"
+
+#: src/dialogs/object-attributes.c:47
+msgid "R2:"
+msgstr "R2:"
+
+#: src/dialogs/object-attributes.c:48
+msgid "ARG1:"
+msgstr "ARG1:"
+
+#: src/dialogs/object-attributes.c:49
+msgid "ARG2:"
+msgstr "ARG2:"
+
+#. Expansion
+#: src/dialogs/object-attributes.c:56 src/spiral-context.c:369
+msgid "Expansion:"
+msgstr "Genişletme:"
+
+#. Revolution
+#: src/dialogs/object-attributes.c:57 src/dialogs/tool-attributes.c:91
+#: src/spiral-context.c:350
+msgid "Revolution:"
+msgstr "Devir:"
+
+#: src/dialogs/object-attributes.c:58
+msgid "Radius:"
+msgstr "Çevre:"
+
+#: src/dialogs/object-attributes.c:59
+msgid "Argument:"
+msgstr "Argüman:"
+
+#: src/dialogs/object-attributes.c:60
+msgid "T0:"
+msgstr "T0:"
+
+#: src/dialogs/object-attributes.c:65
+msgid "URL:"
+msgstr "Adres:"
+
+#: src/dialogs/object-attributes.c:66 src/dialogs/object-attributes.c:74
+#: src/dialogs/object-properties.c:373
+msgid "X:"
+msgstr "X:"
+
+#: src/dialogs/object-attributes.c:67 src/dialogs/object-attributes.c:75
+#: src/dialogs/object-properties.c:388
+msgid "Y:"
+msgstr "Y:"
+
+#: src/dialogs/object-attributes.c:78
+msgid "RX:"
+msgstr "RX:"
+
+#: src/dialogs/object-attributes.c:79
+msgid "RY:"
+msgstr "RY:"
+
+#: src/dialogs/object-attributes.c:114
+#, c-format
+msgid "%s attributes"
+msgstr "%s özellikleri"
+
+#: src/dialogs/object-properties.c:216
+msgid "Apply to:"
+msgstr "Uygula:"
+
+#: src/dialogs/object-properties.c:226
+msgid "Selected objects"
+msgstr "Seçilen nesneler"
+
+#: src/dialogs/object-properties.c:229
+msgid "All shape tools"
+msgstr "Tüm şekillendirme  araçları"
+
+#: src/dialogs/object-properties.c:232
+msgid "Rectangle tool"
+msgstr "Dörtgen aracı"
+
+#: src/dialogs/object-properties.c:235
+msgid "Arc tool"
+msgstr "Eğik çizim aracı"
+
+#: src/dialogs/object-properties.c:238
+msgid "Star tool"
+msgstr "Yıldız aracı"
+
+#: src/dialogs/object-properties.c:241
+msgid "Spiral tool"
+msgstr "Spiral aracı"
+
+#: src/dialogs/object-properties.c:244
+msgid "Freehand and pen"
+msgstr "Serbest ve kalem çizimi"
+
+#: src/dialogs/object-properties.c:247
+msgid "Calligraphic line"
+msgstr "Karalama çizgisi"
+
+#: src/dialogs/object-properties.c:250 src/verbs.c:485
+msgid "Text"
+msgstr "Metin"
+
+#: src/dialogs/object-properties.c:326
+#, fuzzy
+msgid "Object Size and Position"
+msgstr "Nesne boyutu ve konumu"
+
+#: src/dialogs/object-properties.c:348 src/verbs.c:507
+msgid "Size and Position"
+msgstr "Boyut ve Konum"
+
+#: src/dialogs/stroke-style.c:587
+msgid "Stroke settings"
+msgstr "Vuruş ayarları"
+
+#. Join type
+#: src/dialogs/stroke-style.c:624
+msgid "Join:"
+msgstr "Ekle:"
+
+#. Cap type
+#: src/dialogs/stroke-style.c:642
+msgid "Cap:"
+msgstr "Kapak:"
+
+#. Dash
+#: src/dialogs/stroke-style.c:660
+msgid "Pattern:"
+msgstr "Motif:"
+
+#. Start Marker
+#: src/dialogs/stroke-style.c:671
+#, fuzzy
+msgid "Start Markers:"
+msgstr "Yıldız Ayarları"
+
+#. Mid Marker
+#: src/dialogs/stroke-style.c:688
+msgid "Mid Markers:"
+msgstr ""
+
+#. End Marker
+#: src/dialogs/stroke-style.c:705
+msgid "End Markers:"
+msgstr ""
+
+#. Layout
+#: src/dialogs/text-edit.c:174
+msgid "Layout"
+msgstr "Konumlama"
+
+#: src/dialogs/text-edit.c:182
+msgid "Alignment:"
+msgstr "Hiza:"
+
+#: src/dialogs/text-edit.c:207
+msgid "Orientation:"
+msgstr "Oran:"
+
+#: src/dialogs/text-edit.c:225
+#, fuzzy
+msgid "Line spacing:"
+msgstr "X aralığı:"
+
+#: src/dialogs/text-edit.c:250
+msgid "Text and font"
+msgstr "Metin ve yazı tipi"
+
+#: src/dialogs/text-edit.c:261
+msgid "Set as default"
+msgstr "Öntanımlı olarak ata"
+
+#: src/dialogs/tool-attributes.c:46 src/verbs.c:505
+msgid "Tool attributes"
+msgstr "Araç özellikleri"
+
+#: src/dialogs/tool-attributes.c:91
+msgid "Expansion"
+msgstr "Genişletme"
+
+#: src/dialogs/tool-attributes.c:91
+msgid "Inner radius"
+msgstr "İç çevre"
+
+#: src/dialogs/tool-attributes.c:95 src/dialogs/tool-attributes.c:105
+#: src/dialogs/tool-attributes.c:115 src/dialogs/tool-attributes.c:125
+msgid "Missing tool preferences"
+msgstr "Eksik araç ayarları"
+
+#. Magnitude
+#: src/dialogs/tool-attributes.c:101 src/star-context.c:355
+msgid "Corners:"
+msgstr "Köşeler:"
+
+#: src/dialogs/tool-attributes.c:101
+msgid "Proportion"
+msgstr "Orantı"
+
+#: src/dialogs/tool-attributes.c:111
+msgid "Transform:"
+msgstr "Dönüşüm:"
+
+#. Mass
+#: src/dialogs/tool-attributes.c:121 src/dyna-draw-context.c:1043
+msgid "Mass:"
+msgstr "Büyük:"
+
+#. Drag
+#: src/dialogs/tool-attributes.c:121 src/dyna-draw-context.c:1061
+msgid "Drag:"
+msgstr "Sürükle:"
+
+#: src/dialogs/tool-attributes.c:121
+msgid "Angle"
+msgstr "Açı"
+
+#: src/dialogs/tool-attributes.c:128
+msgid "Tool has no attributes"
+msgstr "Aracın özellikleri yok"
+
+#: src/dialogs/tool-attributes.c:131 src/dialogs/tool-options.c:88
+msgid "No active tool"
+msgstr "Aktif araç yok"
+
+#: src/dialogs/tool-options.c:44 src/verbs.c:504
+msgid "Tool options"
+msgstr "Araç ayarları"
+
+#: src/dialogs/tool-options.c:85
+msgid "Tool has no options"
+msgstr "Aracın özelliği yok"
+
+#. Move page
+#: src/dialogs/transformation.c:273 src/dialogs/transformation.c:411
+msgid "Move"
+msgstr "Taşı"
+
+#. Scale page
+#: src/dialogs/transformation.c:281 src/dialogs/transformation.c:585
+msgid "Scale"
+msgstr "Cetvel"
+
+#. Rotate page
+#: src/dialogs/transformation.c:289 src/dialogs/transformation.c:712
+msgid "Rotate"
+msgstr "Dönder"
+
+#. Relative moves
+#: src/dialogs/transformation.c:453
+msgid "Relative move"
+msgstr "Bağlantılı taşı"
+
+#: src/dialogs/transformation.c:730
+msgid "deg"
+msgstr "derece"
+
+#: src/dialogs/xml-tree.c:191
+msgid "Drag to reorder nodes"
+msgstr "Yeni düzenlenen düğümlere taşı"
+
+#: src/dialogs/xml-tree.c:204
+msgid "New element node"
+msgstr "Yeni öğe düğümü"
+
+#: src/dialogs/xml-tree.c:222
+msgid "New text node"
+msgstr "Yeni metin düğümü"
+
+#: src/dialogs/xml-tree.c:239
+msgid "Duplicate node"
+msgstr "Düğümü çiftle"
+
+#: src/dialogs/xml-tree.c:255
+msgid "Delete node"
+msgstr "Düğümü sil"
+
+#: src/dialogs/xml-tree.c:268
+msgid "Unindent node"
+msgstr "Düğümü düzelt"
+
+#: src/dialogs/xml-tree.c:279
+msgid "Indent node"
+msgstr "Düğüme girinti ekle"
+
+#: src/dialogs/xml-tree.c:289
+msgid "Raise node"
+msgstr "Düğümü büyüt"
+
+#: src/dialogs/xml-tree.c:300
+msgid "Lower node"
+msgstr "Düğümü küçült"
+
+#: src/dialogs/xml-tree.c:337
+msgid "Delete attribute"
+msgstr "Özelliği sil"
+
+#: src/dialogs/xml-tree.c:367
+msgid "Attribute name"
+msgstr "Özellik adı"
+
+#: src/dialogs/xml-tree.c:374
+msgid "Set attribute"
+msgstr "Özellik ata"
+
+#: src/dialogs/xml-tree.c:387
+msgid "Attribute value"
+msgstr "Özellik değeri"
+
+#: src/dialogs/xml-tree.c:900
+msgid "New element node..."
+msgstr "Yeni öğe düğümü..."
+
+#: src/dialogs/xml-tree.c:920
+msgid "Cancel"
+msgstr "İptal"
+
+#: src/dialogs/xml-tree.c:924
+msgid "Create"
+msgstr "Yarat"
+
+#: src/document.c:334
+#, c-format
+msgid "New document %d"
+msgstr "Yeni döküman %d"
+
+#: src/document.c:363
+#, c-format
+msgid "Memory document %d"
+msgstr "Hafıza dökümanı %d"
+
+#: src/document.c:449
+#, c-format
+msgid "Unnamed document %d"
+msgstr "Adlandırılmamış döküman %d"
+
+#: src/draw-context.c:280
+#, fuzzy
+msgid "Appending to selection. Press 'a' to toggle Append/New."
+msgstr "Seçime ekleme yapılıyor. '+'a basarak Yeni/Ekleye ulaşabilirsiniz"
+
+#: src/draw-context.c:285
+#, fuzzy
+msgid "Creating new curve. Press 'a' to toggle Append/New."
+msgstr "Yeni bir eğri yaratılıyor. '+'a basarak Yeni/Ekleye ulaşabilirsiniz"
+
+#. Angle
+#: src/dyna-draw-context.c:1079
+msgid "Angle:"
+msgstr "açı:"
+
+#. Reset
+#: src/dyna-draw-context.c:1115 src/rect-context.c:433
+#: src/spiral-context.c:405 src/star-context.c:401
+msgid "Defaults"
+msgstr "Öntanımlı"
+
+#: src/file.c:146 src/file.c:158
+msgid "Select file to open"
+msgstr "Açılacak dosyayı seçin"
+
+#: src/file.c:176 src/file.c:232
+#, fuzzy
+msgid "File type:"
+msgstr "Doldurma stili"
+
+#: src/file.c:218
+msgid "Save file"
+msgstr "Dosyayı kaydet"
+
+#: src/file.c:420 src/file.c:426
+msgid "Select file to import"
+msgstr "İçeri aktarılacak dosyayı seçin"
+
+#: src/help.c:67 src/interface.c:437
+msgid "About Inkscape"
+msgstr ""
+
+#. Do not insert any elements before/between first 4
+#: src/helper/units.c:40
+msgid "Unit"
+msgstr "Birim"
+
+#: src/helper/units.c:40
+msgid "Units"
+msgstr "Birimler"
+
+#: src/helper/units.c:41
+msgid "Point"
+msgstr "Nokta"
+
+#: src/helper/units.c:41
+msgid "pt"
+msgstr "pt"
+
+#: src/helper/units.c:41
+msgid "Points"
+msgstr "Noktalar"
+
+#: src/helper/units.c:41
+msgid "Pt"
+msgstr "Pt"
+
+#: src/helper/units.c:42
+msgid "Pixel"
+msgstr "Piksel"
+
+#: src/helper/units.c:42
+msgid "px"
+msgstr "px"
+
+#: src/helper/units.c:42
+msgid "Pixels"
+msgstr "Piksel"
+
+#: src/helper/units.c:42
+msgid "Px"
+msgstr "Px"
+
+#: src/helper/units.c:43
+msgid "Userspace unit"
+msgstr "Kullanıcı boşluk birimi"
+
+#: src/helper/units.c:43
+msgid "User"
+msgstr "Kullanıcı"
+
+#: src/helper/units.c:43
+msgid "Userspace units"
+msgstr "Kullanıcı boşluk birimleri"
+
+#. Volatiles do not have default, so there are none here
+#. You can add new elements from this point forward
+#: src/helper/units.c:46
+msgid "Percent"
+msgstr "Yüzde"
+
+#: src/helper/units.c:46
+msgid "%"
+msgstr "%"
+
+#: src/helper/units.c:46
+msgid "Percents"
+msgstr "Yüzde"
+
+#: src/helper/units.c:47
+msgid "Millimeter"
+msgstr "Milimetr"
+
+#: src/helper/units.c:47
+msgid "mm"
+msgstr "mm"
+
+#: src/helper/units.c:47
+msgid "Millimeters"
+msgstr "Milimetre"
+
+#: src/helper/units.c:48
+msgid "Centimeter"
+msgstr "Santimetre"
+
+#: src/helper/units.c:48
+msgid "cm"
+msgstr "cm"
+
+#: src/helper/units.c:48
+msgid "Centimeters"
+msgstr "Santrimetre"
+
+#: src/helper/units.c:49
+msgid "Meter"
+msgstr "Metre"
+
+#: src/helper/units.c:49
+msgid "m"
+msgstr "m"
+
+#: src/helper/units.c:49
+msgid "meters"
+msgstr "metre"
+
+#: src/helper/units.c:50
+msgid "Inch"
+msgstr "İnç"
+
+#: src/helper/units.c:50
+msgid "in"
+msgstr "in"
+
+#: src/helper/units.c:50
+msgid "Inches"
+msgstr "İnç"
+
+#: src/helper/units.c:51
+msgid "Em square"
+msgstr "Metrekare"
+
+#: src/helper/units.c:51
+msgid "em"
+msgstr "em"
+
+#: src/helper/units.c:51
+msgid "Em squares"
+msgstr "Metrekare"
+
+#: src/helper/units.c:52
+msgid "Ex square"
+msgstr "Ex square"
+
+#: src/helper/units.c:52
+msgid "ex"
+msgstr "ex"
+
+#: src/helper/units.c:52
+msgid "Ex squares"
+msgstr "Ex squares"
+
+#: src/interface.c:324
+msgid "Open Recent"
+msgstr ""
+
+#: src/interface.c:342
+msgid "Close View"
+msgstr "Görünümü Kapat"
+
+#: src/interface.c:392
+msgid "Cleanup"
+msgstr "Temizle"
+
+#: src/interface.c:424
+msgid "New View"
+msgstr "Yeni Görünüm"
+
+#. View:New Preview
+#: src/interface.c:426
+msgid "New Preview"
+msgstr "Yeni Önizleme"
+
+#. TODO: Modules need abouts too
+#: src/interface.c:441
+msgid "About Modules"
+msgstr ""
+
+#: src/interface.c:455
+msgid "File"
+msgstr "Dosya"
+
+#: src/interface.c:461 src/widgets/gradient-selector.c:135
+msgid "Edit"
+msgstr "Düzenle"
+
+#: src/interface.c:467 src/sp-item.c:498
+msgid "Object"
+msgstr "Nesne"
+
+#: src/interface.c:473
+msgid "View"
+msgstr "Görünüm"
+
+#: src/interface.c:480
+#, fuzzy
+msgid "Filters"
+msgstr "Dosya"
+
+#: src/interface.c:486
+#, fuzzy
+msgid "Help"
+msgstr "_Yardım"
+
+#: src/main.c:121
+msgid "Do not use X server (only process files from console)"
+msgstr "X sunucusunu kullanma (dosyaları sadece konsoldan sürdür)"
+
+#: src/main.c:124
+msgid "Try to use X server even if $DISPLAY is not set)"
+msgstr "$DISPLAY atanmamışsa bile X sunucusunu kullanmaya çalış)"
+
+#: src/main.c:127
+msgid "Open specified document(s) (option string may be excluded)"
+msgstr "Belirtilen döküman(lar)ı aç (seçenekler dahil olmayacaktır)"
+
+#: src/main.c:128 src/main.c:131 src/main.c:134 src/main.c:148
+msgid "FILENAME"
+msgstr "DOSYA ADI"
+
+#: src/main.c:130
+msgid "Print document(s) to specified output file (use '| program' for pipe)"
+msgstr ""
+"Dökümanları belirtilen dosyaya yazdur (başka programa yönlendirmek için '|' "
+"kullanın)"
+
+#: src/main.c:133
+msgid "Export document to png file"
+msgstr "Resmi png olarak aktar"
+
+#: src/main.c:136
+msgid "The resolution used for converting SVG into bitmap (default 72.0)"
+msgstr "SVG'den bitmap'e çevirim için kullanılacak çözünürlük (öntanımlı 72.0)"
+
+#: src/main.c:137
+msgid "DPI"
+msgstr "DPI"
+
+#: src/main.c:139
+msgid ""
+"Exported area in millimeters (default is full document, 0,0 is lower-left "
+"corner)"
+msgstr ""
+"Milimetre değerinde aktarılan bölüm (öntanımlı olarak tüm döküman, 0,0 "
+"resmin en alt sol köşesi)"
+
+#: src/main.c:140
+msgid "x0:y0:x1:y1"
+msgstr "x0:y0:x1:y1"
+
+#: src/main.c:142
+msgid "The width of generated bitmap in pixels (overwrites dpi)"
+msgstr "Yaratılan bitmap'in piksel değerinde genişliği (dpi üzerine yazar)"
+
+#: src/main.c:142
+msgid "WIDTH"
+msgstr "GENİŞLİK"
+
+#: src/main.c:144
+msgid "The height of generated bitmap in pixels (overwrites dpi)"
+msgstr "Yaratılan bitmap'in piksel değerinde yüksekliği (dpi üzerine yazar)"
+
+#: src/main.c:144
+msgid "HEIGHT"
+msgstr "YÜKSEKLİK"
+
+#: src/main.c:146
+msgid "Background color of exported bitmap (any SVG supported color string)"
+msgstr "Dışarı aktarılan birmap'in arkaplanı (SVG destekli herhangi bir renk)"
+
+#: src/main.c:146
+msgid "COLOR"
+msgstr "RENK"
+
+#: src/main.c:148
+msgid "Export document to plain SVG file (no \"xmlns:sodipodi\" namespace)"
+msgstr "Dökümanı düz SVG dosyasına aktar (\"xmlns:sodipodi\" alan boşluğu yok)"
+
+#: src/main.c:150
+msgid "Show given files one-by-one, switch to next on any key/mouse event"
+msgstr ""
+"Verilen dosyaları teker teker göster, herhangi bir tuşa basıldığında "
+"sonrakine geç"
+
+#: src/main.c:152
+msgid "Prefer bitmap (xpm) icons to SVG ones"
+msgstr ""
+
+#: src/modules/gnome.c:133
+msgid "Select printer"
+msgstr "Yazıcıyı seçin"
+
+#: src/modules/gnome.c:187
+#, fuzzy, c-format
+msgid "Inkscape (doc name %s..): Print Preview"
+msgstr "Sodipodi (döküman %s..): Yazdırma Önizlemesi"
+
+#. Print destination frame
+#: src/modules/ps.c:165 src/modules/ps.c:226
+msgid "Print destination"
+msgstr "Hedefi yazdır"
+
+#. Print properties frame
+#: src/modules/ps.c:176
+#, fuzzy
+msgid "Print properties"
+msgstr "Bağlantı Özellikleri"
+
+#: src/modules/ps.c:184
+msgid "Print using PostScript operators"
+msgstr ""
+
+#: src/modules/ps.c:186
+msgid ""
+"Use PostScript vector operators, resulting image will be (usually) smaller "
+"and can be arbitrarily scaled, but alpha transparency, markers and patterns "
+"will be lost"
+msgstr ""
+
+#: src/modules/ps.c:191
+#, fuzzy
+msgid "Print as bitmap"
+msgstr "Bitmap'i dışarı aktar"
+
+#: src/modules/ps.c:193
+msgid ""
+"Print everything as bitmap, resulting image will be (usualy) larger and it "
+"quality depends on zoom factor, but all graphics will be rendered identical "
+"to display"
+msgstr ""
+
+#: src/modules/ps.c:207
+msgid "Preferred resolution (dots per inch) of bitmap"
+msgstr ""
+
+#: src/modules/ps.c:222
+#, fuzzy
+msgid "Resolution:"
+msgstr "Devir:"
+
+#: src/modules/ps.c:232
+msgid ""
+"Enter destination lpr queue.\n"
+"Use '> filename' to print to file.\n"
+"Use '| prog arg...' to pipe to program"
+msgstr ""
+"Hedef lpr kuyruğunu girin.\n"
+"Dosyaya yazmak için '>dosyaadi' \n"
+"Programa yönlendirmek için '|' kullanın"
+
+#: src/modules/ps.c:865
+msgid "write error occured"
+msgstr ""
+
+#. Create toplevel menuitem
+#: src/object-ui.c:105
+msgid "Item"
+msgstr "Birim"
+
+#. Item dialog
+#: src/object-ui.c:108 src/verbs.c:512
+msgid "Item Properties"
+msgstr "Birim Özellikleri"
+
+#. Select item
+#: src/object-ui.c:118
+msgid "Select this"
+msgstr "Bunu Seç"
+
+#. Reset transformations
+#: src/object-ui.c:128
+msgid "Reset transformation"
+msgstr "Dönüşümü sıfırla"
+
+#: src/object-ui.c:134
+msgid "Make sensitive"
+msgstr "Duyarlı hale getir"
+
+#: src/object-ui.c:134
+msgid "Make insensitive"
+msgstr "Duyarsız hale getir"
+
+#. Create link
+#: src/object-ui.c:139
+msgid "Create link"
+msgstr "Bağlantı yarat"
+
+#: src/object-ui.c:251 src/verbs.c:463
+msgid "Group"
+msgstr "Grupla"
+
+#. Group dialog
+#: src/object-ui.c:255
+msgid "Group Properties"
+msgstr "Grup Özellikleri"
+
+#. "Ungroup"
+#: src/object-ui.c:268 src/verbs.c:464
+msgid "Ungroup"
+msgstr "Grupları Kaldır"
+
+#. Create toplevel menuitem
+#: src/object-ui.c:316
+msgid "Link"
+msgstr "Bağlantı"
+
+#. Link dialog
+#: src/object-ui.c:319
+msgid "Link Properties"
+msgstr "Bağlantı Özellikleri"
+
+#. Select item
+#: src/object-ui.c:329
+msgid "Follow link"
+msgstr "Bağlantıyı takip et"
+
+#. Reset transformations
+#: src/object-ui.c:334
+msgid "Remove link"
+msgstr "Bağlantıyı kaldır"
+
+#. Create toplevel menuitem
+#: src/object-ui.c:397
+msgid "Image"
+msgstr "Resim"
+
+#. Link dialog
+#: src/object-ui.c:400
+msgid "Image Properties"
+msgstr "Resim Özellikleri"
+
+#. Autotrace dialog
+#: src/object-ui.c:408 src/sp-image.c:781
+msgid "Trace"
+msgstr "İpucu"
+
+#. Create toplevel menuitem
+#: src/object-ui.c:457
+msgid "Shape"
+msgstr "Şekillendir"
+
+#. Item dialog
+#: src/object-ui.c:460
+msgid "Fill settings"
+msgstr "Doldurma ayarları"
+
+#. Create toplevel menuitem
+#: src/object-ui.c:487
+msgid "Rect"
+msgstr "Dörtgen"
+
+#. Link dialog
+#: src/object-ui.c:490
+msgid "Rect Properties"
+msgstr "Dörtgen Özellikleri"
+
+#. Create toplevel menuitem
+#: src/object-ui.c:523 src/verbs.c:480
+msgid "Star"
+msgstr "Yıldız"
+
+#. Link dialog
+#: src/object-ui.c:526
+msgid "Star Properties"
+msgstr "Yıldız Ayarları"
+
+#. Create toplevel menuitem
+#: src/object-ui.c:559 src/verbs.c:481
+msgid "Spiral"
+msgstr "Spiral"
+
+#. Link dialog
+#: src/object-ui.c:562
+msgid "Spiral Properties"
+msgstr "Spiral Özellikleri"
+
+#. rx_ratio
+#: src/rect-context.c:397
+msgid "Roundness ratio for x:"
+msgstr "X için yuvarlaklık değeri:"
+
+#. ry_ratio
+#: src/rect-context.c:415
+msgid "Roundness ratio for y:"
+msgstr "Y için yuvarlaklık değeri:"
+
+#: src/select-context.c:657
+msgid "Visual transformation"
+msgstr "Görüntülü dönüşüm"
+
+#: src/select-context.c:665
+msgid "Show content"
+msgstr "İçeriği göster"
+
+#: src/select-context.c:672
+msgid "Show outline"
+msgstr "Taslağı göster"
+
+#: src/select-context.c:679
+msgid "Object transformation"
+msgstr "Nesne dönüşümü"
+
+#: src/select-context.c:687
+msgid "Optimize"
+msgstr "Optimize"
+
+#: src/select-context.c:694
+msgid "Preserve"
+msgstr "Koru"
+
+#: src/slideshow.c:88
+#, fuzzy
+msgid "Inkscape slideshow"
+msgstr "Sodipodi: %s : XML Görünümü"
+
+#: src/inkscape.c:400
+msgid "Untitled document"
+msgstr "Başlıksız döküman"
+
+#. Show nice dialog box
+#: src/inkscape.c:429
+#, fuzzy
+msgid "Inkscape encountered an internal error and will close now.\n"
+msgstr "Sodipodi, dahili bir hata karşılaştı ve şimdi kapatılacak.\n"
+
+#: src/inkscape.c:430
+msgid ""
+"Automatic backups of unsaved documents were done to following locations:\n"
+msgstr ""
+"Kaydedilmeyen dökümanların otomatik yedekleri aşağıdaki konuma alınacak.\n"
+
+#: src/inkscape.c:431
+msgid "Automatic backup of following documents failed:\n"
+msgstr "Aşağıdaki dökümanların otomatik yedekleri alınırken hata oluştu.\n"
+
+#: src/inkscape.c:565
+#, fuzzy, c-format
+msgid ""
+"%s is not regular file.\n"
+"Although inkscape will run, you can\n"
+"neither load nor save preferences\n"
+msgstr ""
+"%s uygun bir dosya değil.\n"
+"Sodipodi çalışacak fakat ayarları kaydemeyecek\n"
+"veya yükleyemeyeceksiniz.\n"
+
+#: src/inkscape.c:568
+#, fuzzy, c-format
+msgid ""
+"%s either is not valid xml file or\n"
+"you do not have read premissions on it.\n"
+"Although inkscape will run, you\n"
+"are neither able to load nor save\n"
+"preferences."
+msgstr ""
+"%s uygun bir xml dosyası değil veya \n"
+"bu dosya üzerinde gerekli haklarınız yok.\n"
+"Sodipodi çalışacak fakat ayarları kaydemeyecek\n"
+"veya yükleyemeyeceksiniz."
+
+#: src/inkscape.c:573
+#, fuzzy, c-format
+msgid ""
+"%s is not valid inkscape preferences file.\n"
+"Although inkscape will run, you\n"
+"are neither able to load nor save\n"
+"preferences."
+msgstr ""
+"%s uygun bir sodipodi ayar dosyası değil.\n"
+"Sodipodi çalışacak fakat ayarları kaydemeyecek\n"
+"veya yükleyemeyeceksiniz."
+
+#: src/inkscape.c:931
+#, fuzzy, c-format
+msgid ""
+"Cannot create directory %s.\n"
+"Although inkscape will run, you\n"
+"are neither able to load nor save\n"
+"%s."
+msgstr ""
+"%s dizini yaratılamıyor.\n"
+"Sodipodi çalışacak fakat ayarları kaydemeyecek\n"
+"veya yükleyemeyeceksiniz."
+
+#: src/inkscape.c:935
+#, fuzzy, c-format
+msgid ""
+"%s is not a valid directory.\n"
+"Although inkscape will run, you\n"
+"are neither able to load nor save\n"
+"preferences."
+msgstr ""
+"%s uygun bir dizin değil.\n"
+"Sodipodi çalışacak fakat ayarları kaydemeyecek\n"
+"veya yükleyemeyeceksiniz."
+
+#: src/inkscape.c:939
+#, fuzzy, c-format
+msgid ""
+"Cannot create file %s.\n"
+"Although inkscape will run, you\n"
+"are neither able to load nor save\n"
+"preferences."
+msgstr ""
+"%s dosyası yaratılamıyor.\n"
+"Sodipodi çalışacak fakat ayarları kaydemeyecek\n"
+"veya yükleyemeyeceksiniz."
+
+#: src/inkscape.c:943
+#, fuzzy, c-format
+msgid ""
+"Cannot write file %s.\n"
+"Although inkscape will run, you\n"
+"are neither able to load nor save\n"
+"preferences."
+msgstr ""
+"%s dosyasına yazılamıyor.\n"
+"Sodipodi çalışacak fakat ayarları kaydemeyecek\n"
+"veya yükleyemeyeceksiniz."
+
+#: src/sp-anchor.c:195
+#, c-format
+msgid "Link to %s"
+msgstr "%s'e bağlantı"
+
+#: src/sp-image.c:371
+#, c-format
+msgid "Image with bad reference: %s"
+msgstr "Kötü referanslı resim: %s"
+
+#: src/sp-image.c:373
+#, c-format
+msgid "Color image %d x %d: %s"
+msgstr "Resmi renklendir %d x %d: %s"
+
+#: src/sp-image.c:927
+#, c-format
+msgid "Error to write %s: %s"
+msgstr "%s dosyasına yazılırken hata oluştu: %s"
+
+#: src/sp-image.c:961
+msgid "Untitled"
+msgstr "Başlıksız"
+
+#: src/sp-image.c:966
+msgid "Document Name:"
+msgstr "Döküman Adı:"
+
+#: src/sp-image.c:979
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: src/sp-image.c:985
+msgid "Image URI:"
+msgstr "Resim Adresi:"
+
+#: src/sp-item-group.c:477
+#, c-format
+msgid "Group of %d objects"
+msgstr "%d birimden oluşan grup"
+
+#. fixme:
+#: src/sp-text.c:1295
+msgid "Text object"
+msgstr "Metin nesnesi"
+
+#. T0
+#: src/spiral-context.c:387
+msgid "Inner radius:"
+msgstr "İç çevre:"
+
+#. Proportion
+#: src/star-context.c:373
+msgid "Proportion:"
+msgstr "Orantı:"
+
+#. Making sides flat
+#: src/star-context.c:392
+msgid "Make sides flat"
+msgstr "Kenarları düzleştir"
+
+#: src/toolbox.c:252
+msgid "Insert new nodes into selected segments"
+msgstr "Seçili bölümlere düğüm ekle"
+
+#: src/toolbox.c:253
+msgid "Delete selected nodes"
+msgstr "Seçili düğümleri sil"
+
+#: src/toolbox.c:257
+msgid "Join lines at selected nodes"
+msgstr "Seçilen düğümleri çizgilere ekle"
+
+#: src/toolbox.c:258
+#, fuzzy
+msgid "Join lines at selected nodes with new segment"
+msgstr "Seçilen düğümleri çizgilere ekle"
+
+#: src/toolbox.c:259
+msgid "Break line at selected nodes"
+msgstr "Çizgileri seçilen düğümlerden kes"
+
+#: src/toolbox.c:263
+msgid "Make selected nodes corner"
+msgstr "Seçilen düğümleri köşeye çevir"
+
+#: src/toolbox.c:264
+msgid "Make selected nodes smooth"
+msgstr "Seçilen düğümleri güzelleştir"
+
+#: src/toolbox.c:268
+msgid "Make selected segments lines"
+msgstr "Seçilen bölümleri çizgiye çevir"
+
+#: src/toolbox.c:269
+msgid "Make selected segments curves"
+msgstr "Seçilen bölümleri eğrilere dönüştür"
+
+#: src/verbs.c:435
+msgid "Does nothing"
+msgstr ""
+
+#. File
+#: src/verbs.c:437
+msgid "New"
+msgstr "Yeni"
+
+#: src/verbs.c:437
+#, fuzzy
+msgid "Create new document"
+msgstr "Yeni bir SVG dökümanı oluştur"
+
+#: src/verbs.c:438
+#, fuzzy
+msgid "Open..."
+msgstr "Aç"
+
+#: src/verbs.c:438
+#, fuzzy
+msgid "Open existing document"
+msgstr "SVG dökümanı aç"
+
+#: src/verbs.c:439
+msgid "Save"
+msgstr "Kayde"
+
+#: src/verbs.c:439
+msgid "Save document"
+msgstr "Dökümanı kaydet"
+
+#: src/verbs.c:440
+#, fuzzy
+msgid "Save As..."
+msgstr "Farklı kaydet"
+
+#: src/verbs.c:440
+msgid "Save document under new name"
+msgstr "Dökümanı yeni bir adla kaydet"
+
+#: src/verbs.c:441
+#, fuzzy
+msgid "Print..."
+msgstr "Yazdır"
+
+#: src/verbs.c:441
+msgid "Print document"
+msgstr "Dökümanı yazdır"
+
+#: src/verbs.c:442
+msgid "Print Direct..."
+msgstr ""
+
+#: src/verbs.c:442
+msgid "Print directly to file or pipe"
+msgstr ""
+
+#: src/verbs.c:443
+msgid "Print Preview"
+msgstr "Önizleme"
+
+#: src/verbs.c:443
+msgid "Preview document printout"
+msgstr "Döküman Öngörünümü"
+
+#: src/verbs.c:444
+msgid "Import"
+msgstr "İçeri Aktar"
+
+#: src/verbs.c:444
+msgid "Import bitmap or SVG image into document"
+msgstr "Bitmap veya SVG dosyasını döküman içine aktar"
+
+#: src/verbs.c:445
+#, fuzzy
+msgid "Export Bitmap"
+msgstr "Bitmap'i dışarı aktar"
+
+#: src/verbs.c:445
+msgid "Export document as PNG bitmap"
+msgstr "Dökümanı png olarak aktar"
+
+#: src/verbs.c:446
+#, fuzzy
+msgid "Quit"
+msgstr "Çı_k"
+
+#. Edit
+#: src/verbs.c:448
+msgid "Undo"
+msgstr "Geri Al"
+
+#: src/verbs.c:448
+#, fuzzy
+msgid "Undo last action"
+msgstr "Son eyleme dön"
+
+#: src/verbs.c:449
+msgid "Redo"
+msgstr "Yeniden yap"
+
+#: src/verbs.c:449
+#, fuzzy
+msgid "Do again last undone action"
+msgstr "Geri alınan eylemi yeniden yap"
+
+#: src/verbs.c:450
+msgid "Cut"
+msgstr "Kes"
+
+#: src/verbs.c:450
+msgid "Cut selected objects to clipboard"
+msgstr "Seçili nesneleri panoya kes"
+
+#: src/verbs.c:451
+msgid "Copy"
+msgstr "Kopya"
+
+#: src/verbs.c:451
+msgid "Copy selected objects to clipboard"
+msgstr "Seçili nesneleri panoya kopyala"
+
+#: src/verbs.c:452
+msgid "Paste"
+msgstr "Yapıştır"
+
+#: src/verbs.c:452
+msgid "Paste objects from clipboard"
+msgstr "Panodan nesne yapıştır"
+
+#: src/verbs.c:453
+#, fuzzy
+msgid "Paste style"
+msgstr "Vuruş stili"
+
+#: src/verbs.c:453
+#, fuzzy
+msgid "Apply style of copied object to selection"
+msgstr "Seçili nesneleri panoya kopyala"
+
+#: src/verbs.c:454
+msgid "Delete"
+msgstr "Sil"
+
+#: src/verbs.c:454
+msgid "Delete selected objects"
+msgstr "Seçili nesneleri sil"
+
+#: src/verbs.c:455
+msgid "Duplicate"
+msgstr "Çiftle"
+
+#: src/verbs.c:455
+msgid "Duplicate selected objects"
+msgstr "Seçili nesneleri çiftle"
+
+#: src/verbs.c:456
+#, fuzzy
+msgid "Clear All"
+msgstr "Hepsini temizle"
+
+#: src/verbs.c:456
+msgid "Delete all objects from document"
+msgstr ""
+
+#: src/verbs.c:457
+#, fuzzy
+msgid "Select All"
+msgstr "Seç"
+
+#: src/verbs.c:457
+#, fuzzy
+msgid "Select all objects in document"
+msgstr "Dökümanda geçiş yok"
+
+#. Selection
+#: src/verbs.c:459
+msgid "Bring to Front"
+msgstr "Öne Getir"
+
+#: src/verbs.c:459
+msgid "Raise selected objects to top"
+msgstr "Seçili nesneleri üste taşı"
+
+#: src/verbs.c:460
+msgid "Send to Back"
+msgstr "Arkaya it"
+
+#: src/verbs.c:460
+msgid "Lower selected objects to bottom"
+msgstr "Seçili nesneleri arkaya it"
+
+#: src/verbs.c:461
+msgid "Raise"
+msgstr "Büyüt"
+
+#: src/verbs.c:461
+#, fuzzy
+msgid "Raise selected objects one position"
+msgstr "Seçili nesneleri üste taşı"
+
+#: src/verbs.c:462
+msgid "Lower"
+msgstr "Küçült"
+
+#: src/verbs.c:462
+#, fuzzy
+msgid "Lower selected objects one position"
+msgstr "Seçili nesneleri arkaya it"
+
+#: src/verbs.c:463
+msgid "Group selected objects"
+msgstr "Seçili nesneleri grupla"
+
+#: src/verbs.c:464
+msgid "Ungroup selected group"
+msgstr "Seçili grupların gruplandırmasını kaldır"
+
+#: src/verbs.c:465
+msgid "Combine"
+msgstr "Birleştir"
+
+#: src/verbs.c:465
+msgid "Combine multiple paths"
+msgstr "Çoklu konumları birleştir"
+
+#: src/verbs.c:466
+#, fuzzy
+msgid "Break Apart"
+msgstr "_Kopar"
+
+#: src/verbs.c:466
+msgid "Break selected path to subpaths"
+msgstr "Seçilen konumu alt konumlara böl"
+
+#. Object
+#: src/verbs.c:468
+#, fuzzy
+msgid "Rotate 90 degrees"
+msgstr "Sayfa genişliğini ayarla"
+
+#: src/verbs.c:468
+#, fuzzy
+msgid "Rotate object 90 degrees clockwise"
+msgstr "Seçili nesneleri saat yönünde 90 derece dönder"
+
+#: src/verbs.c:469
+#, fuzzy
+msgid "Remove transformations"
+msgstr "Dönüştürmeyi kaldır"
+
+#: src/verbs.c:469
+#, fuzzy
+msgid "Remove transformations from object"
+msgstr "Dönüşümleri kaldır"
+
+#: src/verbs.c:470
+#, fuzzy
+msgid "Convert to Curves"
+msgstr "_Eğrilere Dönüştür"
+
+#: src/verbs.c:470
+#, fuzzy
+msgid "Convert selected objects to paths"
+msgstr "Seçili nesneleri eğrilere dönder"
+
+#: src/verbs.c:471
+#, fuzzy
+msgid "Flip Horizontally"
+msgstr "yatay"
+
+#: src/verbs.c:472
+msgid "Flip selected objects horizontally"
+msgstr "Seçili nesneleri yatay çevir"
+
+#: src/verbs.c:473
+#, fuzzy
+msgid "Flip Vertically"
+msgstr "dikey"
+
+#: src/verbs.c:474
+msgid "Flip selected objects vertically"
+msgstr "Seçili nesneleri dikey çevir"
+
+#. Event contexts
+#: src/verbs.c:476
+msgid "Select"
+msgstr "Seç"
+
+#: src/verbs.c:476
+#, fuzzy
+msgid "Select and transform objects"
+msgstr "Nesne ve grupları seç ve değiştir"
+
+#: src/verbs.c:477
+#, fuzzy
+msgid "Node edit"
+msgstr "Noktayı Değiştir"
+
+#: src/verbs.c:477
+#, fuzzy
+msgid "Edit path nodes in selected object"
+msgstr "Seçili nesnelerin yerleşimini değiştir"
+
+#: src/verbs.c:478
+msgid "Rectangle"
+msgstr "Dörtgen"
+
+#: src/verbs.c:478
+#, fuzzy
+msgid "Create rectangles and squares with optional rounded corners"
+msgstr ""
+"Dörtgen aracı - Köşeleri belirtilen yuvarlıkta dörtgenler ve kareler yaratır"
+
+#: src/verbs.c:479
+msgid "Ellipse"
+msgstr "Elips"
+
+#: src/verbs.c:479
+#, fuzzy
+msgid "Create circles, ellipses, and arcs"
+msgstr "Eğri aracı - daireler, elipsler ve eğriler yaratır"
+
+#: src/verbs.c:480
+#, fuzzy
+msgid "Create stars and polygons"
+msgstr "Yıldız aracı - yıldızlar ve poligonlar yaratır"
+
+#: src/verbs.c:481
+#, fuzzy
+msgid "Create spirals"
+msgstr "Dörtgen çiz"
+
+#: src/verbs.c:482
+msgid "Pencil"
+msgstr ""
+
+#: src/verbs.c:482
+#, fuzzy
+msgid "Draw freehand curves and straight lines"
+msgstr "Kalem aracı - düz ve serbest çizgiler çizer"
+
+#: src/verbs.c:483
+#, fuzzy
+msgid "Pen"
+msgstr "Yüzde"
+
+#: src/verbs.c:483
+#, fuzzy
+msgid "Draw Bezier curves and straight lines"
+msgstr "Kalem aracı - düz ve serbest çizgiler çizer"
+
+#: src/verbs.c:484
+#, fuzzy
+msgid "Calligraphy"
+msgstr "Karalama çizgisi"
+
+#: src/verbs.c:484
+#, fuzzy
+msgid "Draw calligraphic lines"
+msgstr "Karalama çizgisi"
+
+#: src/verbs.c:485
+#, fuzzy
+msgid "Create and edit text objects"
+msgstr "MEtin aracı - düzenlenebilir metin nesneleri yaratır"
+
+#: src/verbs.c:486
+msgid "Zoom into precisely selected area"
+msgstr ""
+
+#: src/verbs.c:487
+msgid "Dropper"
+msgstr ""
+
+#: src/verbs.c:487
+msgid "Pick averaged colors from image"
+msgstr ""
+
+#. Zooming
+#: src/verbs.c:489
+#, fuzzy
+msgid "In"
+msgstr "İnç"
+
+#: src/verbs.c:489
+msgid "Zoom in"
+msgstr "Büyült"
+
+#: src/verbs.c:490
+#, fuzzy
+msgid "Out"
+msgstr "Kes"
+
+#: src/verbs.c:490
+msgid "Zoom out"
+msgstr "Küçült"
+
+#: src/verbs.c:491
+#, fuzzy
+msgid "Toggle grid"
+msgstr "Kenarları aç/kapat"
+
+#: src/verbs.c:492
+#, fuzzy
+msgid "Toggle guides"
+msgstr "Kenarları aç/kapat"
+
+#: src/verbs.c:493
+msgid "1:1"
+msgstr "1:1"
+
+#: src/verbs.c:493
+msgid "Zoom to 1:1"
+msgstr "1:1 göster"
+
+#: src/verbs.c:494
+msgid "1:2"
+msgstr "1:2"
+
+#: src/verbs.c:494
+#, fuzzy
+msgid "Zoom to 1:2"
+msgstr "1:1 göster"
+
+#: src/verbs.c:495
+msgid "2:1"
+msgstr "2:1"
+
+#: src/verbs.c:495
+#, fuzzy
+msgid "Zoom to 2:1"
+msgstr "1:1 göster"
+
+#: src/verbs.c:496
+#, fuzzy
+msgid "Fit page in window"
+msgstr "Tüm sayfayı pencereye uydur"
+
+#: src/verbs.c:497
+#, fuzzy
+msgid "Page width"
+msgstr "Sayfa genişliğini ayarla"
+
+#: src/verbs.c:497
+#, fuzzy
+msgid "Fit page width in window"
+msgstr "Tüm sayfayı pencereye uydur"
+
+#: src/verbs.c:498
+#, fuzzy
+msgid "Fit drawing in window"
+msgstr "Çizimi pencereye uydur"
+
+#: src/verbs.c:499
+#, fuzzy
+msgid "Fit selection in window"
+msgstr "Seçimi pencereye uydur"
+
+#. Dialogs
+#: src/verbs.c:501
+#, fuzzy
+msgid "Inkscape Options"
+msgstr "Sodipodi: %s : XML Görünümü"
+
+#: src/verbs.c:501
+#, fuzzy
+msgid "Global Inkscape options"
+msgstr "Görüntü ayarları"
+
+#: src/verbs.c:502
+#, fuzzy
+msgid "Document Settings"
+msgstr "Döküman ayarları"
+
+#: src/verbs.c:502
+msgid "Settings for the current document"
+msgstr ""
+
+#: src/verbs.c:503
+msgid "Editing Window"
+msgstr "Düzenleme Penceresi"
+
+#: src/verbs.c:503
+#, fuzzy
+msgid "Editing window properties"
+msgstr "Düzenleme Penceresi"
+
+#: src/verbs.c:504
+msgid "Tool Options"
+msgstr "Araç Özellikleri"
+
+#: src/verbs.c:505
+msgid "Tool Attributes"
+msgstr "Araç Özellikleri"
+
+#: src/verbs.c:506
+msgid "Fill and Stroke"
+msgstr "Doldur ve Vur"
+
+#: src/verbs.c:506
+#, fuzzy
+msgid "Fill and stroke settings"
+msgstr "Vuruş ayarları"
+
+#: src/verbs.c:507
+msgid "Object size and position"
+msgstr "Nesne boyutu ve konumu"
+
+#: src/verbs.c:508
+#, fuzzy
+msgid "Transform"
+msgstr "Dönüşüm:"
+
+#: src/verbs.c:508
+msgid "Object transformations"
+msgstr "Nesne dönüşümleri"
+
+#: src/verbs.c:509
+#, fuzzy
+msgid "Align and Distribute"
+msgstr "Özellik"
+
+#: src/verbs.c:509
+#, fuzzy
+msgid "Align and distribute objects"
+msgstr "Özellik ekle"
+
+#: src/verbs.c:510
+#, fuzzy
+msgid "Text and Font"
+msgstr "Metin ve yazı tipi"
+
+#: src/verbs.c:510
+#, fuzzy
+msgid "Text editing and font settings"
+msgstr "Metin ve yazı tipi ayarları"
+
+#: src/verbs.c:511
+msgid "XML Editor"
+msgstr "XML Düzenleyicisi"
+
+#. Family frame
+#: src/widgets/font-selector.c:150
+msgid "Font family"
+msgstr "Yazı tipi ailesi"
+
+#. Style frame
+#: src/widgets/font-selector.c:178
+msgid "Style"
+msgstr "Stil"
+
+#: src/widgets/font-selector.c:213
+msgid "Font size:"
+msgstr "Yazı tipi boyutu:"
+
+#: src/widgets/font-selector.c:523
+msgid "AaBbCcIiPpQq12368.;/()"
+msgstr "AaBbCcIiPpQq12368.;/()"
+
+#: src/widgets/gradient-selector.c:140
+msgid "Add"
+msgstr "Ekle"
+
+#: src/widgets/gradient-selector.c:176
+msgid "gradientUnits"
+msgstr "gradientUnits"
+
+#: src/widgets/gradient-selector.c:205
+msgid "gradientSpread"
+msgstr "gradientSpread"
+
+#: src/widgets/gradient-vector.c:256
+msgid "No document selected"
+msgstr "Döküman seçilmedi"
+
+#: src/widgets/gradient-vector.c:262
+msgid "No gradients in document"
+msgstr "Dökümanda geçiş yok"
+
+#: src/widgets/gradient-vector.c:268
+msgid "No gradient selected"
+msgstr "Geçiş seçilmedi"
+
+#: src/widgets/gradient-vector.c:424
+msgid "Start color"
+msgstr "Başlangıç rengi"
+
+#: src/widgets/gradient-vector.c:434
+msgid "End color"
+msgstr "Bitiş rengi"
+
+#: src/widgets/paint-selector.c:620
+msgid "No objects"
+msgstr "Nesne yok"
+
+#: src/widgets/paint-selector.c:634
+msgid "Multiple styles"
+msgstr "Çoklu stiller"
+
+#: src/widgets/paint-selector.c:648
+msgid "No paint"
+msgstr "Çizim yok"
+
+#. Label
+#: src/widgets/paint-selector.c:738
+msgid "Mode:"
+msgstr "Mod:"
+
+#: src/widgets/paint-selector.c:748
+msgid "RGB"
+msgstr "RGB"
+
+#: src/widgets/paint-selector.c:748 src/widgets/paint-selector.c:749
+msgid "RGB Colorspace"
+msgstr ""
+
+#: src/widgets/paint-selector.c:749
+msgid "HSV"
+msgstr "HSV"
+
+#: src/widgets/paint-selector.c:750
+msgid "CMYK"
+msgstr "CMYK"
+
+#: src/widgets/paint-selector.c:750
+msgid "CMYK Colorspace"
+msgstr ""
+
+#. Use dropper
+#: src/widgets/paint-selector.c:757
+msgid "Get from dropper"
+msgstr ""
+
+#: src/widgets/paint-selector.c:788
+msgid "Color paint"
+msgstr "Renkli resim"
+
+#: src/widgets/paint-selector.c:858
+msgid "Linear gradient"
+msgstr "Çizgisel geçiş"
+
+#: src/widgets/paint-selector.c:861
+msgid "Radial gradient"
+msgstr "Radyal geçiş"
+
+#: src/widgets/sp-color-selector.c:623
+msgid "Red:"
+msgstr "Kırmızı:"
+
+#: src/widgets/sp-color-selector.c:624
+msgid "Green:"
+msgstr "Yeşil:"
+
+#: src/widgets/sp-color-selector.c:625
+msgid "Blue:"
+msgstr "Mavi:"
+
+#: src/widgets/sp-color-selector.c:626 src/widgets/sp-color-selector.c:646
+#: src/widgets/sp-color-selector.c:668
+msgid "Alpha:"
+msgstr "Alfa:"
+
+#: src/widgets/sp-color-selector.c:643
+msgid "Hue:"
+msgstr "Renk:"
+
+#: src/widgets/sp-color-selector.c:644
+msgid "Saturation:"
+msgstr "Canlılık"
+
+#: src/widgets/sp-color-selector.c:645
+msgid "Value:"
+msgstr "Değer:"
+
+#: src/widgets/sp-color-selector.c:664
+msgid "Cyan:"
+msgstr "Cyan:"
+
+#: src/widgets/sp-color-selector.c:665
+msgid "Magenta:"
+msgstr "Macenta"
+
+#: src/widgets/sp-color-selector.c:666
+msgid "Yellow:"
+msgstr "Sarı:"
+
+#: src/widgets/sp-color-selector.c:667
+msgid "Black:"
+msgstr "Siyah:"
+
+#: src/widgets/sp-toolbox.c:307
+msgid "Toggle separate window and main toolbox placement"
+msgstr ""
+
+#: src/widgets/sp-xmlview-attr-list.c:55
+msgid "Attribute"
+msgstr "Özellik"
+
+#: src/widgets/sp-xmlview-attr-list.c:56
+msgid "Value"
+msgstr "Değer"
+
+#~ msgid "Sodipodi"
+#~ msgstr "Sodipodi"
+
+#~ msgid "Align objects"
+#~ msgstr "Nesneleri hizala"
+
+#~ msgid "Desktop settings"
+#~ msgstr "Masaüstü ayarları"
+
+#, fuzzy
+#~ msgid "Iso grid"
+#~ msgstr "Izgarayı göster"
+
+#~ msgid "Display settings"
+#~ msgstr "Görüntü ayarları"
+
+#~ msgid "Export png file"
+#~ msgstr "Png dosyasını dışarı aktar"
+
+#~ msgid "Object style"
+#~ msgstr "Nesne stili"
+
+#~ msgid "Fill"
+#~ msgstr "Doldur"
+
+#~ msgid "Stroke paint"
+#~ msgstr "Resme vuruş"
+
+#~ msgid "Text properties"
+#~ msgstr "Metin özellikleri"
+
+#~ msgid "Transform selection"
+#~ msgstr "Seçileni dönüştür"
+
+#, fuzzy
+#~ msgid "Inkscape: %s : XML View"
+#~ msgstr "Sodipodi: %s : XML Görünümü"
+
+#~ msgid "Exit Program"
+#~ msgstr "Programdan Çık"
+
+#~ msgid "New Toplevel Toolbox"
+#~ msgstr "Yeni Yüksek Seviye Araç Kutusu"
+
+#~ msgid "New Docked Toolbox"
+#~ msgstr "Yeni Küçük Araç Kutusu"
+
+#~ msgid "Remove Docked Toolbox"
+#~ msgstr "Küçük Araç Kutusunu Kaldır"
+
+#~ msgid "Open"
+#~ msgstr "Aç"
+
+#~ msgid "Drawing Mode"
+#~ msgstr "Çizim Modu"
+
+#~ msgid "Dialogs"
+#~ msgstr "Pencereler"
+
+#~ msgid "SVG with \"xmlns:sodipodi\" namespace"
+#~ msgstr "\"xmlns:sodipodi\" ad boşluğu ile SVG"
+
+#~ msgid "Plain SVG"
+#~ msgstr "Düz SVG"
+
+#, fuzzy
+#~ msgid ""
+#~ "%s is not regular file.\n"
+#~ "Although inkscape will run, you are\n"
+#~ "not able to use extensions (plugins)\n"
+#~ msgstr ""
+#~ "%s uygun bir dosya değil.\n"
+#~ "Sodipodi çalışacak fakat ayarları kaydemeyecek\n"
+#~ "veya yükleyemeyeceksiniz.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "%s either is not valid xml file or\n"
+#~ "you do not have read premissions on it.\n"
+#~ "Although inkscape will run, you are\n"
+#~ "not able to use extensions (plugins)\n"
+#~ msgstr ""
+#~ "%s uygun bir xml dosyası değil veya \n"
+#~ "bu dosya üzerinde gerekli haklarınız yok.\n"
+#~ "Sodipodi çalışacak fakat ayarları kaydemeyecek\n"
+#~ "veya yükleyemeyeceksiniz."
+
+#, fuzzy
+#~ msgid ""
+#~ "%s is not valid inkscape extensions file.\n"
+#~ "Although inkscape will run, you are\n"
+#~ "not able to use extensions (plugins)\n"
+#~ msgstr ""
+#~ "%s uygun bir sodipodi ayar dosyası değil.\n"
+#~ "Sodipodi çalışacak fakat ayarları kaydemeyecek\n"
+#~ "veya yükleyemeyeceksiniz."
+
+#, fuzzy
+#~ msgid ""
+#~ "Cannot create directory %s.\n"
+#~ "Although inkscape will run, you are\n"
+#~ "not able to use extensions (plugins)\n"
+#~ msgstr ""
+#~ "%s dizini yaratılamıyor.\n"
+#~ "Sodipodi çalışacak fakat ayarları kaydemeyecek\n"
+#~ "veya yükleyemeyeceksiniz."
+
+#, fuzzy
+#~ msgid ""
+#~ "%s is not a valid directory.\n"
+#~ "Although inkscape will run, you are\n"
+#~ "not able to use extensions (plugins)\n"
+#~ msgstr ""
+#~ "%s uygun bir dizin değil.\n"
+#~ "Sodipodi çalışacak fakat ayarları kaydemeyecek\n"
+#~ "veya yükleyemeyeceksiniz."
+
+#, fuzzy
+#~ msgid ""
+#~ "Cannot create file %s.\n"
+#~ "Although inkscape will run, you are\n"
+#~ "not able to use extensions (plugins)\n"
+#~ msgstr ""
+#~ "%s dosyası yaratılamıyor.\n"
+#~ "Sodipodi çalışacak fakat ayarları kaydemeyecek\n"
+#~ "veya yükleyemeyeceksiniz."
+
+#, fuzzy
+#~ msgid ""
+#~ "Cannot write file %s.\n"
+#~ "Although inkscape will run, you are\n"
+#~ "not able to use extensions (plugins)\n"
+#~ msgstr ""
+#~ "%s dosyasına yazılamıyor.\n"
+#~ "Sodipodi çalışacak fakat ayarları kaydemeyecek\n"
+#~ "veya yükleyemeyeceksiniz."
+
+#~ msgid "Unknown item :-("
+#~ msgstr "Bilinmeyen birim:-("
+
+#~ msgid "Text and font settings"
+#~ msgstr "Metin ve yazı tipi ayarları"
+
+#~ msgid "Draw"
+#~ msgstr "Çiz"
+
+#, fuzzy
+#~ msgid "Extension"
+#~ msgstr "Genişletme"
+
+#~ msgid "Nodes"
+#~ msgstr "Düğümler"
+
+#, fuzzy
+#~ msgid "Flatten object"
+#~ msgstr "Seçilen nesneler"
+
+#, fuzzy
+#~ msgid "Modify existing objects by control nodes"
+#~ msgstr "Nesneleri kontrol noktalarıyla değiştir"
+
+#, fuzzy
+#~ msgid "Draw precisely positioned curved and straight lines"
+#~ msgstr "Eğri kalem aracı - belirli noktalarla eğriler çizer"
+
+#~ msgid "Zoom in drawing"
+#~ msgstr "Çizimi yakınlaştır"
+
+#~ msgid "Zoom out drawing"
+#~ msgstr "Çizimi uzaklaştır"
+
+#~ msgid "Set zoom factor to 1:1"
+#~ msgstr "Yakınlaştırma faktörünü 1.1 ata"
+
+#~ msgid "Set zoom factor to 1:2"
+#~ msgstr "Yakınlaştırma faktörünü 1.2 ata"
+
+#~ msgid "Set zoom factor to 2:1"
+#~ msgstr "Yakınlaştırma faktörünü 2.1 ata"
+
+#, fuzzy
+#~ msgid "Display"
+#~ msgstr "Dolgu ayarları"
+
+#~ msgid "Document"
+#~ msgstr "Belge"
+
+#~ msgid "Transformations"
+#~ msgstr "Dönüşümler"
+
+#~ msgid "Gradient vector"
+#~ msgstr "Geçiş vektörü"
+
+#, fuzzy
+#~ msgid "Document variant:"
+#~ msgstr "Döküman Adı:"
+
+#, fuzzy
+#~ msgid "Save document as"
+#~ msgstr "Dökümanı kaydet"
+
+#~ msgid "About sodipodi"
+#~ msgstr "Sodipodi hakkında"
+
+#~ msgid "About Sodipodi"
+#~ msgstr "Sodipodi Hakkında"
+
+#~ msgid "Item is reference"
+#~ msgstr "Nesne referans"
+
+#~ msgid "The SVG ID of item"
+#~ msgstr "Nesnenin SVG numarası"
+
+#~ msgid "The ID is not valid"
+#~ msgstr "Numara geçerli değil"
+
+#~ msgid "The ID is already defined"
+#~ msgstr "Numara önceden belirlenmiş"
+
+#~ msgid "Object position and size"
+#~ msgstr "Nesne konumu ve boyutu"
+
+#~ msgid "Position and size"
+#~ msgstr "Konum ve boyut"
+
+#, fuzzy
+#~ msgid "Open SVG file"
+#~ msgstr "Dosya aç"
+
+#~ msgid "Break apart"
+#~ msgstr "Kopar"
+
+#~ msgid "Order"
+#~ msgstr "Sırala"
+
+#~ msgid "Node"
+#~ msgstr "Düğüm"
+
+#~ msgid "Arc"
+#~ msgstr "Eğri"
+
+#~ msgid "Freehand"
+#~ msgstr "Serbest"
+
+#~ msgid "Dynahand"
+#~ msgstr "Düz"
+
+#~ msgid "Align Objects"
+#~ msgstr "Nesneleri Hizala"
+
+#~ msgid "Text Editing"
+#~ msgstr "Metin Düzenlemesi"
+
+#~ msgid "Display Properties"
+#~ msgstr "Görünüm Ayarları"
+
+#~ msgid "Convert object to curve"
+#~ msgstr "Seçili nesneleri eğrilere çevir"
+
+#~ msgid "Raise selected objects one level"
+#~ msgstr "Seçili nesneleri bir seviye üste taşı"
+
+#~ msgid "Lower selected objects one level"
+#~ msgstr "Seçili nesneleri bir seviye arkaya it"
+
+#~ msgid "Select tool - select and transform objects"
+#~ msgstr "Seçim Aracı - Nesneleri seçer ve şekillendirir"
+
+#~ msgid "Node tool - modify different aspects of existing objects"
+#~ msgstr "Düğüm aracı - Varolan nesnelerin özelliklerini değiştirir"
+
+#~ msgid "Spiral tool - create spirals"
+#~ msgstr "Spiral aracı - spiraller yaratır"
+
+#~ msgid "Calligraphic tool - draw calligraphic lines"
+#~ msgstr "Karalama aracı - karalama çizgileri çizer"
+
+#~ msgid "Zoom tool - zoom into choosen area"
+#~ msgstr "Yakınlaştırma aracı - seçilen alanı yakından gösterir"
+
+#~ msgid "Save as:"
+#~ msgstr "Farklı kaydet:"
+
+#~ msgid "Whether zoom follows window size"
+#~ msgstr "Yakınlaştırma/Uzaklaştırma pencere boyutuna bağlı olsun"
+
+#~ msgid "A path - whatever it means"
+#~ msgstr "Bir konum - ne anlama geliyorsa"
+
+#~ msgid "Align objects to horizontal mid"
+#~ msgstr "Nesneleri yatay ortasına hizala"
+
+#~ msgid "Align objects to vertical mid"
+#~ msgstr "Nesneleri dikey ortasına hizala"
+
+#~ msgid "Align outside object to bottom border"
+#~ msgstr "Nesne dışını alt kenara hizala"
+
+#~ msgid "Align outside object to left border"
+#~ msgstr "Nesne dışını sol kenara hizala"
+
+#~ msgid "Align outside object to right border"
+#~ msgstr "Nesne dışını sağ kenara hizala"
+
+#~ msgid "Align outside object to top border"
+#~ msgstr "Nesne dışını üst kenara hizala"
+
+#, fuzzy
+#~ msgid "Choose align type"
+#~ msgstr "Birim sistemini seçiniz"
+
+#, fuzzy
+#~ msgid "Close window"
+#~ msgstr "Diyalogu kapat"
+
+#, fuzzy
+#~ msgid "Transformation"
+#~ msgstr "Dönüştürme diyalogu"
+
+#~ msgid " Color fill "
+#~ msgstr " Renkli dolgu "
+
+#~ msgid " General "
+#~ msgstr " Genel "
+
+#, fuzzy
+#~ msgid " Style "
+#~ msgstr " Boyutla "
+
+#~ msgid "Behind fill"
+#~ msgstr "Dolgu arkası"
+
+#, fuzzy
+#~ msgid "Butt endpoints"
+#~ msgstr "2 seçili bitiş noktasını birleştir"
+
+#, fuzzy
+#~ msgid "Choose fill color"
+#~ msgstr "Izgara rengini seçiniz"
+
+#, fuzzy
+#~ msgid "Choose stroke color"
+#~ msgstr "Baskı rengi : "
+
+#, fuzzy
+#~ msgid "Color fill"
+#~ msgstr " Renkli dolgu "
+
+#, fuzzy
+#~ msgid "Color:"
+#~ msgstr "Renk"
+
+#~ msgid "Dimension"
+#~ msgstr "Boyut"
+
+#, fuzzy
+#~ msgid "Edit..."
+#~ msgstr "Değiştir"
+
+#, fuzzy
+#~ msgid "Endpoints:"
+#~ msgstr "Birimler:"
+
+#, fuzzy
+#~ msgid "Fill Color:"
+#~ msgstr "Dolgu rengi : "
+
+#, fuzzy
+#~ msgid "Fractal fill"
+#~ msgstr "Fraktal"
+
+#, fuzzy
+#~ msgid "Gradient fill"
+#~ msgstr "Geçişim"
+
+#~ msgid "Is stroked"
+#~ msgstr "Baskılı"
+
+#, fuzzy
+#~ msgid "No fill"
+#~ msgstr " Renkli dolgu "
+
+#, fuzzy
+#~ msgid "Pattern fill"
+#~ msgstr "Motif"
+
+#~ msgid "Pick a color"
+#~ msgstr "Renk seçiniz"
+
+#, fuzzy
+#~ msgid "Pick fill color"
+#~ msgstr "Renk seçiniz"
+
+#, fuzzy
+#~ msgid "Pick stroke color"
+#~ msgstr "Renk seçiniz"
+
+#~ msgid "Position"
+#~ msgstr "Konum"
+
+#~ msgid "Reread"
+#~ msgstr "Yeniden oku"
+
+#, fuzzy
+#~ msgid "Round endpoints"
+#~ msgstr "2 seçili bitiş noktasını birleştir"
+
+#, fuzzy
+#~ msgid "Round join"
+#~ msgstr "2 seçili bitiş noktasını birleştir"
+
+#, fuzzy
+#~ msgid "Scale with object"
+#~ msgstr "Resimle boyutla"
+
+#, fuzzy
+#~ msgid "Square endpoints"
+#~ msgstr "2 seçili bitiş noktasını birleştir"
+
+#~ msgid "Stroke"
+#~ msgstr "Baskı"
+
+#, fuzzy
+#~ msgid "Stroke width"
+#~ msgstr "Sayfa genişliğini ayarla"
+
+#, fuzzy
+#~ msgid "centimeter"
+#~ msgstr "İçerik"
+
+#~ msgid "color"
+#~ msgstr "renk"
+
+#, fuzzy
+#~ msgid "millimeters"
+#~ msgstr "Milimetre\n"
+
+#~ msgid "none"
+#~ msgstr "yok"
+
+#~ msgid "object properties"
+#~ msgstr "nesne özellikleri"
+
+#, fuzzy
+#~ msgid "points"
+#~ msgstr "Yazdır"
+
+#~ msgid "1.0MB"
+#~ msgstr "1.0 MB"
+
+#~ msgid "Back One"
+#~ msgstr "Bir geri"
+
+#~ msgid "Break apart selected node"
+#~ msgstr "Seçili noktadan kopart"
+
+#~ msgid "Bring to _Front"
+#~ msgstr "Ö_ne Getir"
+
+#~ msgid "Close dialog"
+#~ msgstr "Diyalogu kapat"
+
+#~ msgid "Convert selected segments to curves"
+#~ msgstr "Seçili bölümleri eğrilere dönüştür"
+
+#~ msgid "Convert selected segments to lines"
+#~ msgstr "Seçili bölümleri çizgilere dönüştür"
+
+#~ msgid "Cusp line at selected nodes"
+#~ msgstr "Seçili noktalardaki çizgiyi tepele"
+
+#~ msgid "Desktop"
+#~ msgstr "Masaüstü"
+
+#~ msgid "Drawing Context"
+#~ msgstr "Çizim Kapsamı"
+
+#~ msgid "Export picture to png"
+#~ msgstr "Resmi png olarak ithal et"
+
+#~ msgid "Exported as"
+#~ msgstr "İhraç ediliş şekli"
+
+#~ msgid "Forward One"
+#~ msgstr "Bir ileri"
+
+#~ msgid "Height"
+#~ msgstr "Yükseklik"
+
+#~ msgid "Image size"
+#~ msgstr "Resim boyutu"
+
+#~ msgid "Include one node into selected segments"
+#~ msgstr "Seçili bölümlere bir nokta koy"
+
+#~ msgid "Join 2 selected endpoints"
+#~ msgstr "2 seçili bitiş noktasını birleştir"
+
+#~ msgid "Lock aspect ratio"
+#~ msgstr "Resim oranlarını kitle"
+
+#~ msgid "Png file name"
+#~ msgstr "Png dosya adı"
+
+#~ msgid "Send to _Back"
+#~ msgstr "Arka_ya it"
+
+#~ msgid "Set dimensions"
+#~ msgstr "Boyutları belirle"
+
+#~ msgid "Smooth line at selected nodes"
+#~ msgstr "Seçili noktalardaki çizgiyi düzelt"
+
+#~ msgid "Symmetric "
+#~ msgstr "Simetrik"
+
+#~ msgid "Uncompressed file size:"
+#~ msgstr "Sıkıştırılmamış dosya boyutu:"
+
+#~ msgid "Where to export"
+#~ msgstr "İthal edilecek yer"
+
+#~ msgid "Width"
+#~ msgstr "Genişlik"
+
+#~ msgid "X0"
+#~ msgstr "X0"
+
+#~ msgid "X1"
+#~ msgstr "X1"
+
+#~ msgid "XML Tree"
+#~ msgstr "XML Ağacı"
+
+#~ msgid "Y0"
+#~ msgstr "Y0"
+
+#~ msgid "Y1"
+#~ msgstr "Y1"
+
+#~ msgid "_Align"
+#~ msgstr "_Hizala"
+
+#~ msgid "_Combine"
+#~ msgstr "_Birleştir"
+
+#~ msgid "_Drawing"
+#~ msgstr "_Çizim"
+
+#, fuzzy
+#~ msgid "_Group"
+#~ msgstr "_Grup"
+
+#~ msgid "_Interactive"
+#~ msgstr "_Interaktif"
+
+#~ msgid "_New"
+#~ msgstr "_Yeni"
+
+#~ msgid "_Page"
+#~ msgstr "S_ayfa"
+
+#~ msgid "_Selection"
+#~ msgstr "_Seçim"
+
+#, fuzzy
+#~ msgid "_Ungroup"
+#~ msgstr "Gr_ubu çöz"
+
+#~ msgid "Align dialog"
+#~ msgstr "Diyalogu hizala"
+
+#~ msgid "Break apart selected paths"
+#~ msgstr "Seçilen yolları kopar"
+
+#~ msgid "Combine selected paths"
+#~ msgstr "Seçili yolları birleştir"
+
+#~ msgid "Copy selection to clipboard"
+#~ msgstr "Seçileni panoya kopyala"
+
+#~ msgid "Cut selection"
+#~ msgstr "Seçileni kes"
+
+#~ msgid "Delete selection"
+#~ msgstr "Seçileni sil"
+
+#, fuzzy
+#~ msgid "Draw arc"
+#~ msgstr "Çiz\t"
+
+#, fuzzy
+#~ msgid "Draw dynahand line"
+#~ msgstr "Serbest şekiller çiz"
+
+#~ msgid "Draw freehand line"
+#~ msgstr "Serbest şekiller çiz"
+
+#~ msgid "Draw rectangle"
+#~ msgstr "Dörtgen çiz"
+
+#, fuzzy
+#~ msgid "Draw star"
+#~ msgstr "Metin çiz"
+
+#~ msgid "Draw text"
+#~ msgstr "Metin çiz"
+
+#~ msgid "Drawing context"
+#~ msgstr "Çizim kapsamı"
+
+#~ msgid "Duplicate selection"
+#~ msgstr "Seçileni klonla"
+
+#~ msgid "Edit fill style of selected objects"
+#~ msgstr "Seçili nesnelerin dolgu tipini değiştir"
+
+#~ msgid "Edit font style of selected objects"
+#~ msgstr "Seçili nesnelerin yazı tipini değiştir"
+
+#~ msgid "Edit nodes"
+#~ msgstr "Noktaları değiştir"
+
+#~ msgid "Edit stroke style of selected objects"
+#~ msgstr "Seçili nesnelerin baskı tipini değiştir"
+
+#~ msgid "Import "
+#~ msgstr "İthal et"
+
+#~ msgid "Lower selection one layer"
+#~ msgstr "Seçileni bir katman alçalt"
+
+#~ msgid "New drawing"
+#~ msgstr "Yeni çizim"
+
+#~ msgid "No I'd rather do some more cool vector drawing with sodipodi."
+#~ msgstr "Hayır! Sodipodi ile çizime devam edeceğim."
+
+#~ msgid "Nope !"
+#~ msgstr "Hayır !"
+
+#~ msgid "Open new drawing"
+#~ msgstr "Yeni çizim aç"
+
+#~ msgid "Paste from clipboard"
+#~ msgstr "Panodan yapıştır"
+
+#~ msgid "Preview print drawing"
+#~ msgstr "Çizim yazdırma öngörünümü"
+
+#~ msgid "Quit or not quit ?"
+#~ msgstr "Çıkıyormusun ?"
+
+#~ msgid "Raise selection to top"
+#~ msgstr "Seçileni öne getir"
+
+#~ msgid "Really wanna quit sodipodi ?"
+#~ msgstr "Gerçekten Sodipodi'den çıkacakmısınız ?"
+
+#~ msgid "Rise selection one layer"
+#~ msgstr "Seçileni bir katman yükselt"
+
+#, fuzzy
+#~ msgid "Rotate selected objects 90deg clockwise"
+#~ msgstr "Seçili nesneleri saat yönünde 90° dönder"
+
+#~ msgid "Save drawing "
+#~ msgstr "Çizimi kaydet"
+
+#~ msgid "Save drawing under new filename"
+#~ msgstr "Çizimi yeni dosya adıyla kaydet"
+
+#~ msgid "Transformation dialog"
+#~ msgstr "Dönüştürme diyalogu"
+
+#~ msgid "Undo "
+#~ msgstr "Geri al"
+
+#~ msgid "Ungroup selected objects"
+#~ msgstr "Seçili nesneleri çöz"
+
+#~ msgid "Unsymmetric"
+#~ msgstr "Asimetrik"
+
+#~ msgid "Yep !"
+#~ msgstr "Evet !"
+
+#~ msgid "Yes quick! I want to leave sodipodi and come back later."
+#~ msgstr "Evet! Sodipodi'ye daha sonra dönmek üzere."
+
+#~ msgid "Zoom to page"
+#~ msgstr "Sayfayı göster"
+
+#~ msgid "Zoom to selection"
+#~ msgstr "Seçileni göster"
+
+#~ msgid "_Open"
+#~ msgstr "_Aç"
+
+#~ msgid "lower selection to bottom"
+#~ msgstr "seçili nesneleri arkaya it"
+
+#, fuzzy
+#~ msgid "Align to bottom left"
+#~ msgstr "Nesne dışını sol kenara hizala"
+
+#, fuzzy
+#~ msgid "Align to bottom middle"
+#~ msgstr "Nesne içini alt kenara hizala"
+
+#, fuzzy
+#~ msgid "Align to bottom right"
+#~ msgstr "Nesne dışını sağ kenara hizala"
+
+#, fuzzy
+#~ msgid "Align to left middle"
+#~ msgstr "Nesneleri dikey ortasına hizala"
+
+#, fuzzy
+#~ msgid "Align to right middle"
+#~ msgstr "Nesneleri yatay ortasına hizala"
+
+#, fuzzy
+#~ msgid "Align to top left"
+#~ msgstr "Nesne dışını sol kenara hizala"
+
+#, fuzzy
+#~ msgid "Align to top right"
+#~ msgstr "Nesne dışını sağ kenara hizala"
+
+#, fuzzy
+#~ msgid "Center"
+#~ msgstr "İçerik"
+
+#, fuzzy
+#~ msgid "Choose metric for center"
+#~ msgstr "Rehber çizgileri rengini seçiniz"
+
+#, fuzzy
+#~ msgid "Close dialog - Ctl+c"
+#~ msgstr "Diyalogu kapat"
+
+#, fuzzy
+#~ msgid "Degree"
+#~ msgstr "derece"
+
+#, fuzzy
+#~ msgid "Height: "
+#~ msgstr "Yükseklik:"
+
+#, fuzzy
+#~ msgid "Orig. Width: "
+#~ msgstr " Genişlik "
+
+#, fuzzy
+#~ msgid "Orig. X: "
+#~ msgstr "Orijin X:"
+
+#, fuzzy
+#~ msgid "Set angle to 0 degrees"
+#~ msgstr "Sayfa genişliğini ayarla"
+
+#, fuzzy
+#~ msgid "Set angle to 180 degrees"
+#~ msgstr "Sayfa genişliğini ayarla"
+
+#, fuzzy
+#~ msgid "Set angle to 270 degrees"
+#~ msgstr "Sayfa genişliğini ayarla"
+
+#~ msgid "Skew"
+#~ msgstr "Eğilt"
+
+#, fuzzy
+#~ msgid "Start transformation - Ctl+a"
+#~ msgstr "Dönüştürmeye başla"
+
+#, fuzzy
+#~ msgid "Use alignment during transformation"
+#~ msgstr "Dönüştürmeyi kaldır"
+
+#, fuzzy
+#~ msgid "absolute"
+#~ msgstr "Yapış"
+
+#, fuzzy
+#~ msgid "angle"
+#~ msgstr "Değiştir"
+
+#, fuzzy
+#~ msgid "desktop"
+#~ msgstr "Masaüstü"
+
+#, fuzzy
+#~ msgid "horizontal scale value"
+#~ msgstr "yatay"
+
+#, fuzzy
+#~ msgid "select direction"
+#~ msgstr "Seçileni sil"
+
+#, fuzzy
+#~ msgid "skew"
+#~ msgstr "Eğilt"
+
+#~ msgid "Attribute:"
+#~ msgstr "Özellik:"
+
+#~ msgid "Change"
+#~ msgstr "Değiştir"
+
+#~ msgid "Change Attribute"
+#~ msgstr "Özelliği değiştir"
+
+#, fuzzy
+#~ msgid "Change Content"
+#~ msgstr "Çizim Kapsamı"
+
+#~ msgid "Content"
+#~ msgstr "İçerik"
+
+#~ msgid "Do you want to delete attribute?"
+#~ msgstr "Bu özelliği silmek istiyormusun?"
+
+#~ msgid "Hierarchy"
+#~ msgstr "Hiyerarşi"
+
+#~ msgid "Key"
+#~ msgstr "Anahtar"
+
+#, fuzzy
+#~ msgid "New Element"
+#~ msgstr "Yeni dosya"
+
+#~ msgid "name"
+#~ msgstr "isim"
+
+#, fuzzy
+#~ msgid "You can't delete 'id' attribute!"
+#~ msgstr "Bu özelliği silmek istiyormusun?"
+
+#, fuzzy
+#~ msgid "Do you want to delete attribute %s?"
+#~ msgstr "Bu özelliği silmek istiyormusun?"
+
+#, fuzzy
+#~ msgid "No"
+#~ msgstr "Nokta"
+
+#, fuzzy
+#~ msgid "Do you want to delete element %s?"
+#~ msgstr "Bu özelliği silmek istiyormusun?"
+
+#, fuzzy
+#~ msgid "us"
+#~ msgstr "_Biz"
+
+#~ msgid "Choose base unit system for grid"
+#~ msgstr "Izgara için temel birim sistemini seçiniz"
+
+#~ msgid "Millimeters\n"
+#~ msgstr "Milimetre\n"
+
+#~ msgid "Choose color for grid"
+#~ msgstr "Izgara rengini seçiniz"
+
+#~ msgid "Set maximum distance for grid snapping"
+#~ msgstr "Izgara yakalamasının maksimum uzaklığını ayarla"
+
+#~ msgid "Choose unit system for grid snapping"
+#~ msgstr "Izgara yakalama birim sistemini seçiniz"
+
+#~ msgid "Pixels\n"
+#~ msgstr "Piksel\n"
+
+#~ msgid "Set distance between vertical grid lines"
+#~ msgstr "Dikey ızgara aralığını belirle"
+
+#~ msgid "Set distance between horizontal grid lines"
+#~ msgstr "Yatay ızgara aralığını belirle"
+
+#~ msgid "Set origin of page coordinate system"
+#~ msgstr "Sayfa koordinat sisteminin orijinini ayarla"
+
+#~ msgid "Choose unit system for guideline snapping"
+#~ msgstr "Rehber çizgileri yakalama birim sistemini seç"
+
+#~ msgid "Set maximum distance for guideline snapping"
+#~ msgstr "Rehber çizgileri yakalama maksimum aralığını seç"
+
+#~ msgid "Choose color for guidelines"
+#~ msgstr "Rehber çizgileri rengini seçiniz"
+
+#~ msgid "Choose color for highlighted guidelines"
+#~ msgstr "İşaretli rehber çizgileri için renk seçiniz"
+
+#~ msgid "Choose paper size"
+#~ msgstr "Sayfa boyutunu seçin"
+
+#~ msgid "A4\n"
+#~ msgstr "A4\n"
+
+#~ msgid "Set page height"
+#~ msgstr "Sayfa yüksekliğini ayarla"
+
+#~ msgid "Copyright Lauris Kaplinski 1999-2000."
+#~ msgstr "Telif hakkı Lauris Kaplinski 1999-2000"
+
+#~ msgid ""
+#~ "A Vector Drawing Program.\n"
+#~ "Released under GPL"
+#~ msgstr ""
+#~ "Bir Vektör Çizim Programı.\n"
+#~ "GPL'e göre yayınlanmıştır"
+
+#~ msgid "_File"
+#~ msgstr "_Dosya"
+
+#~ msgid "_About ..."
+#~ msgstr "Hakkında ..."
+
+#~ msgid "Draw ellipse"
+#~ msgstr "Elips çiz"
+
+#~ msgid "Dup"
+#~ msgstr "Klon"
+
+#~ msgid "Del"
+#~ msgstr "Sil"
+
+#~ msgid "Do not use GUI. NB! if exist, should be FIRST argument!"
+#~ msgstr "Grafik arabirimini kullanma. NB! varsa, İLK argüman olmalı!"
+
+#~ msgid "Could not initialize Bonobo"
+#~ msgstr "Bonobo'yu başlatamadım"
+
+#~ msgid "Broken bitmap"
+#~ msgstr "Bozuk resim"
+
+#~ msgid "Valige värv"
+#~ msgstr "Valige (?)"
+
+#~ msgid " Width "
+#~ msgstr " Genişlik "
+
+#~ msgid ""
+#~ "pixels\n"
+#~ "millimeters\n"
+#~ "centimeter\n"
+#~ "points\n"
+#~ "inches\n"
+#~ msgstr ""
+#~ "piksel\n"
+#~ "milimetre\n"
+#~ "santimetre\n"
+#~ "nokta\n"
+#~ "inç\n"
+
+#~ msgid "Scale with image"
+#~ msgstr "Resimle boyutla"
+
+#~ msgid "dashed"
+#~ msgstr "kesik"
+
+#~ msgid "double"
+#~ msgstr "çift"
+
+#~ msgid " Join "
+#~ msgstr " Ekle "
+
+#~ msgid "bevel"
+#~ msgstr "kenar"
+
+#~ msgid "round"
+#~ msgstr "daire"
+
+#~ msgid "butt"
+#~ msgstr "alt"
+
+#~ msgid "Color"
+#~ msgstr "Renk"
+
+#~ msgid "Fractal"
+#~ msgstr "Fraktal"
+
+#~ msgid "Fill Color : "
+#~ msgstr "Dolgu rengi : "
+
+#~ msgid "y"
+#~ msgstr "y"
+
+#~ msgid "Width "
+#~ msgstr "Genişlik "
+
+#~ msgid "Height "
+#~ msgstr "Yükseklik "
+
+#~ msgid ""
+#~ "px\n"
+#~ "mm\n"
+#~ "cm\n"
+#~ "pt\n"
+#~ "in\n"
+#~ msgstr ""
+#~ "px\n"
+#~ "mm\n"
+#~ "cm\n"
+#~ "pt\n"
+#~ "in\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "px\n"
+#~ "mm\n"
+#~ "cm\n"
+#~ "in\n"
+#~ msgstr ""
+#~ "px\n"
+#~ "mm\n"
+#~ "cm\n"
+#~ "pt\n"
+#~ "in\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "pt\n"
+#~ "mm\n"
+#~ "cm\n"
+#~ "in\n"
+#~ msgstr ""
+#~ "px\n"
+#~ "mm\n"
+#~ "cm\n"
+#~ "pt\n"
+#~ "in\n"
+
+#~ msgid "_New File"
+#~ msgstr "_Yeni Dosya"
+
+#~ msgid "_Import"
+#~ msgstr "_İthal et"
+
+#~ msgid "_Export"
+#~ msgstr "_İhraç et"
+
+#~ msgid "D_uplicate"
+#~ msgstr "Kl_onla"
+
+#~ msgid "_Delete"
+#~ msgstr "S_il"
+
+#~ msgid "Toggles desktop borders (rulers and scrollbars on and off)"
+#~ msgstr "Masaüstü kenarları aç/kapat (cetvel ve çubukları aç/kapat )"
+
+#~ msgid "Toggle borders"
+#~ msgstr "Kenarları aç/kapat"
+
+#~ msgid "_Arrange"
+#~ msgstr "_Ayarla"
+
+#~ msgid "_Order"
+#~ msgstr "_Sırala"
+
+#~ msgid "Groups selected items"
+#~ msgstr "Seçili birimlrı gruplar"
+
+#~ msgid "Save File"
+#~ msgstr "Dosyayı kaydet"
+
+#~ msgid "Duplic\t"
+#~ msgstr "Klonla\t"
+
+#~ msgid "To Front"
+#~ msgstr "Öne getir"
+
+#~ msgid "Up"
+#~ msgstr "Yukarı"
+
+#~ msgid "Lower one position"
+#~ msgstr "Bir pozisyon alçalt"
+
+#~ msgid "Down"
+#~ msgstr "Aşağı"
+
+#~ msgid "Draw rectangles"
+#~ msgstr "Dörtgen çiz"
+
+#~ msgid "Draw ellipses"
+#~ msgstr "Elips çiz"
+
+#~ msgid "Write text"
+#~ msgstr "Metin yaz"
+
+#~ msgid "Left button zooms in, right out"
+#~ msgstr "Farenin sol tuşu büyültür, sağ tuşu küçültür"
+
+#~ msgid ""
+#~ "10%\n"
+#~ "25%\n"
+#~ "50%\n"
+#~ "75%\n"
+#~ "100%\n"
+#~ "150%\n"
+#~ "200%\n"
+#~ "300%\n"
+#~ "500%\n"
+#~ msgstr ""
+#~ "%10\n"
+#~ "%25\n"
+#~ "%50\n"
+#~ "%75\n"
+#~ "%100\n"
+#~ "%150\n"
+#~ "%200\n"
+#~ "%300\n"
+#~ "%500\n"
+
+#~ msgid "100%"
+#~ msgstr "%100"
+
+#~ msgid " Move "
+#~ msgstr " Taşı "
+
+#~ msgid "move relative in"
+#~ msgstr "göreceli içeri taşı"
+
+#~ msgid ""
+#~ "pixel\n"
+#~ "points\n"
+#~ "millimeter\n"
+#~ "centimeter\n"
+#~ "inch\n"
+#~ msgstr ""
+#~ "piksel\n"
+#~ "milimetre\n"
+#~ "santimetre\n"
+#~ "nokta\n"
+#~ "inç\n"
+
+#~ msgid " Rotate "
+#~ msgstr " Dönder "
+
+#~ msgid "90°"
+#~ msgstr "90°"
+
+#~ msgid "180°"
+#~ msgstr "180°"
+
+#~ msgid "270°"
+#~ msgstr "270°"
+
+#~ msgid "any"
+#~ msgstr "herhangi"
+
+#~ msgid "right"
+#~ msgstr "sağ"
+
+#~ msgid "left"
+#~ msgstr "sol"
+
+#~ msgid " flip "
+#~ msgstr " tersine çevir "
+
+#~ msgid " Skew "
+#~ msgstr " Eğilt "
+
+#~ msgid "%  "
+#~ msgstr "%  "
+
+#~ msgid "make copy"
+#~ msgstr "kopyala"
+
+#~ msgid "Guidelines setup"
+#~ msgstr "Rehber ayarlaması"
+
+#~ msgid "close dialog"
+#~ msgstr "diyalogu kapat"

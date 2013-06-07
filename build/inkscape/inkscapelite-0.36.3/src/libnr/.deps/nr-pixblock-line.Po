@@ -1,0 +1,17 @@
+nr-pixblock-line.o: nr-pixblock-line.c ../libnr/nr-pixops.h \
+ ../libnr/nr-pixblock-pixel.h ../libnr/nr-pixblock.h ../libnr/nr-types.h \
+ ../libnr/nr_config.h ../libnr/nr-forward.h ../libnr/nr-pixblock-line.h
+
+../libnr/nr-pixops.h:
+
+../libnr/nr-pixblock-pixel.h:
+
+../libnr/nr-pixblock.h:
+
+../libnr/nr-types.h:
+
+../libnr/nr_config.h:
+
+../libnr/nr-forward.h:
+
+../libnr/nr-pixblock-line.h:

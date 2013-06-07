@@ -1,0 +1,3 @@
+arikkei-dict.o: arikkei-dict.c arikkei-dict.h
+
+arikkei-dict.h:

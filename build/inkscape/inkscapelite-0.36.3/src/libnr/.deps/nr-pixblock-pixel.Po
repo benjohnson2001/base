@@ -1,0 +1,15 @@
+nr-pixblock-pixel.o: nr-pixblock-pixel.c nr-pixops.h nr-pixblock-pixel.h \
+ ../libnr/nr-pixblock.h ../libnr/nr-types.h ../libnr/nr_config.h \
+ ../libnr/nr-forward.h
+
+nr-pixops.h:
+
+nr-pixblock-pixel.h:
+
+../libnr/nr-pixblock.h:
+
+../libnr/nr-types.h:
+
+../libnr/nr_config.h:
+
+../libnr/nr-forward.h:

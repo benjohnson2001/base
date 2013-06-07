@@ -1,0 +1,363 @@
+Making install in src
+make[1]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src'
+Making install in libarikkei
+make[2]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/libarikkei'
+make[3]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/libarikkei'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/libarikkei'
+make[2]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/libarikkei'
+Making install in libnr
+make[2]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/libnr'
+make  install-am
+make[3]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/libnr'
+make[4]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/libnr'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/libnr'
+make[3]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/libnr'
+make[2]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/libnr'
+Making install in libnrtype
+make[2]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/libnrtype'
+make[3]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/libnrtype'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/libnrtype'
+make[2]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/libnrtype'
+Making install in xml
+make[2]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/xml'
+make[3]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/xml'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/xml'
+make[2]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/xml'
+Making install in svg
+make[2]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/svg'
+make[3]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/svg'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/svg'
+make[2]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/svg'
+Making install in helper
+make[2]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/helper'
+make[3]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/helper'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/helper'
+make[2]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/helper'
+Making install in widgets
+make[2]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/widgets'
+make[3]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/widgets'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/widgets'
+make[2]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/widgets'
+Making install in dialogs
+make[2]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/dialogs'
+make[3]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/dialogs'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/dialogs'
+make[2]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/dialogs'
+Making install in display
+make[2]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/display'
+make[3]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/display'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/display'
+make[2]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/display'
+Making install in modules
+make[2]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/modules'
+make[3]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/modules'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/modules'
+make[2]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/modules'
+Making install in utest
+make[2]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/utest'
+make[3]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/utest'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/utest'
+make[2]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src/utest'
+make[2]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src'
+make[3]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src'
+/bin/sh ../mkinstalldirs /usr/local/bin
+  /bin/sh ../libtool --mode=install /usr/bin/install -c -p  inkscape /usr/local/bin/inkscape
+/usr/bin/install -c -p inkscape /usr/local/bin/inkscape
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src'
+make[2]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src'
+make[1]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/src'
+Making install in glade
+make[1]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/glade'
+make[2]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/glade'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs /usr/local/share/inkscape
+ /usr/bin/install -c -p -m 644 add.xpm /usr/local/share/inkscape/add.xpm
+ /usr/bin/install -c -p -m 644 add_xml_element_node.xpm /usr/local/share/inkscape/add_xml_element_node.xpm
+ /usr/bin/install -c -p -m 644 add_xml_text_node.xpm /usr/local/share/inkscape/add_xml_text_node.xpm
+ /usr/bin/install -c -p -m 644 al_bottom_in.xpm /usr/local/share/inkscape/al_bottom_in.xpm
+ /usr/bin/install -c -p -m 644 al_bottom_out.xpm /usr/local/share/inkscape/al_bottom_out.xpm
+ /usr/bin/install -c -p -m 644 al_center_hor.xpm /usr/local/share/inkscape/al_center_hor.xpm
+ /usr/bin/install -c -p -m 644 al_center_ver.xpm /usr/local/share/inkscape/al_center_ver.xpm
+ /usr/bin/install -c -p -m 644 al_left_in.xpm /usr/local/share/inkscape/al_left_in.xpm
+ /usr/bin/install -c -p -m 644 al_left_out.xpm /usr/local/share/inkscape/al_left_out.xpm
+ /usr/bin/install -c -p -m 644 al_right_in.xpm /usr/local/share/inkscape/al_right_in.xpm
+ /usr/bin/install -c -p -m 644 al_right_out.xpm /usr/local/share/inkscape/al_right_out.xpm
+ /usr/bin/install -c -p -m 644 al_top_in.xpm /usr/local/share/inkscape/al_top_in.xpm
+ /usr/bin/install -c -p -m 644 al_top_out.xpm /usr/local/share/inkscape/al_top_out.xpm
+ /usr/bin/install -c -p -m 644 align_bc.xpm /usr/local/share/inkscape/align_bc.xpm
+ /usr/bin/install -c -p -m 644 align_bl.xpm /usr/local/share/inkscape/align_bl.xpm
+ /usr/bin/install -c -p -m 644 align_br.xpm /usr/local/share/inkscape/align_br.xpm
+ /usr/bin/install -c -p -m 644 align_cc.xpm /usr/local/share/inkscape/align_cc.xpm
+ /usr/bin/install -c -p -m 644 align_cl.xpm /usr/local/share/inkscape/align_cl.xpm
+ /usr/bin/install -c -p -m 644 align_cr.xpm /usr/local/share/inkscape/align_cr.xpm
+ /usr/bin/install -c -p -m 644 align_tc.xpm /usr/local/share/inkscape/align_tc.xpm
+ /usr/bin/install -c -p -m 644 align_tl.xpm /usr/local/share/inkscape/align_tl.xpm
+ /usr/bin/install -c -p -m 644 align_tr.xpm /usr/local/share/inkscape/align_tr.xpm
+ /usr/bin/install -c -p -m 644 angle_180.xpm /usr/local/share/inkscape/angle_180.xpm
+ /usr/bin/install -c -p -m 644 angle_270.xpm /usr/local/share/inkscape/angle_270.xpm
+ /usr/bin/install -c -p -m 644 angle_90.xpm /usr/local/share/inkscape/angle_90.xpm
+ /usr/bin/install -c -p -m 644 angle_any.xpm /usr/local/share/inkscape/angle_any.xpm
+ /usr/bin/install -c -p -m 644 arrows_hor.xpm /usr/local/share/inkscape/arrows_hor.xpm
+ /usr/bin/install -c -p -m 644 arrows_ver.xpm /usr/local/share/inkscape/arrows_ver.xpm
+ /usr/bin/install -c -p -m 644 cap_butt.xpm /usr/local/share/inkscape/cap_butt.xpm
+ /usr/bin/install -c -p -m 644 cap_round.xpm /usr/local/share/inkscape/cap_round.xpm
+ /usr/bin/install -c -p -m 644 cap_square.xpm /usr/local/share/inkscape/cap_square.xpm
+ /usr/bin/install -c -p -m 644 clear.xpm /usr/local/share/inkscape/clear.xpm
+ /usr/bin/install -c -p -m 644 create_new.xpm /usr/local/share/inkscape/create_new.xpm
+ /usr/bin/install -c -p -m 644 curve.xpm /usr/local/share/inkscape/curve.xpm
+ /usr/bin/install -c -p -m 644 cusp.xpm /usr/local/share/inkscape/cusp.xpm
+ /usr/bin/install -c -p -m 644 del.xpm /usr/local/share/inkscape/del.xpm
+ /usr/bin/install -c -p -m 644 delete_xml_node.xpm /usr/local/share/inkscape/delete_xml_node.xpm
+ /usr/bin/install -c -p -m 644 delete_xml_attribute.xpm /usr/local/share/inkscape/delete_xml_attribute.xpm
+ /usr/bin/install -c -p -m 644 dimension_hor.xpm /usr/local/share/inkscape/dimension_hor.xpm
+ /usr/bin/install -c -p -m 644 dimension_ver.xpm /usr/local/share/inkscape/dimension_ver.xpm
+ /usr/bin/install -c -p -m 644 div.xpm /usr/local/share/inkscape/div.xpm
+ /usr/bin/install -c -p -m 644 draw_arc.xpm /usr/local/share/inkscape/draw_arc.xpm
+ /usr/bin/install -c -p -m 644 draw_freehand.xpm /usr/local/share/inkscape/draw_freehand.xpm
+ /usr/bin/install -c -p -m 644 draw_dynahand.xpm /usr/local/share/inkscape/draw_dynahand.xpm
+ /usr/bin/install -c -p -m 644 draw_node.xpm /usr/local/share/inkscape/draw_node.xpm
+ /usr/bin/install -c -p -m 644 draw_pen.xpm /usr/local/share/inkscape/draw_pen.xpm
+ /usr/bin/install -c -p -m 644 draw_rect.xpm /usr/local/share/inkscape/draw_rect.xpm
+ /usr/bin/install -c -p -m 644 draw_star.xpm /usr/local/share/inkscape/draw_star.xpm
+ /usr/bin/install -c -p -m 644 draw_spiral.xpm /usr/local/share/inkscape/draw_spiral.xpm
+ /usr/bin/install -c -p -m 644 draw_select.xpm /usr/local/share/inkscape/draw_select.xpm
+ /usr/bin/install -c -p -m 644 draw_text.xpm /usr/local/share/inkscape/draw_text.xpm
+ /usr/bin/install -c -p -m 644 draw_zoom.xpm /usr/local/share/inkscape/draw_zoom.xpm
+ /usr/bin/install -c -p -m 644 dt_active.xpm /usr/local/share/inkscape/dt_active.xpm
+ /usr/bin/install -c -p -m 644 dt_inactive.xpm /usr/local/share/inkscape/dt_inactive.xpm
+ /usr/bin/install -c -p -m 644 duplicate.xpm /usr/local/share/inkscape/duplicate.xpm
+ /usr/bin/install -c -p -m 644 duplicate_xml_node.xpm /usr/local/share/inkscape/duplicate_xml_node.xpm
+ /usr/bin/install -c -p -m 644 edge_down.xpm /usr/local/share/inkscape/edge_down.xpm
+ /usr/bin/install -c -p -m 644 edge_up.xpm /usr/local/share/inkscape/edge_up.xpm
+ /usr/bin/install -c -p -m 644 edit_copy.xpm /usr/local/share/inkscape/edit_copy.xpm
+ /usr/bin/install -c -p -m 644 edit_cut.xpm /usr/local/share/inkscape/edit_cut.xpm
+ /usr/bin/install -c -p -m 644 edit_delete.xpm /usr/local/share/inkscape/edit_delete.xpm
+ /usr/bin/install -c -p -m 644 edit_duplicate.xpm /usr/local/share/inkscape/edit_duplicate.xpm
+ /usr/bin/install -c -p -m 644 edit_paste.xpm /usr/local/share/inkscape/edit_paste.xpm
+ /usr/bin/install -c -p -m 644 edit_redo.xpm /usr/local/share/inkscape/edit_redo.xpm
+ /usr/bin/install -c -p -m 644 edit_undo.xpm /usr/local/share/inkscape/edit_undo.xpm
+ /usr/bin/install -c -p -m 644 ellipse.xpm /usr/local/share/inkscape/ellipse.xpm
+ /usr/bin/install -c -p -m 644 file_export.xpm /usr/local/share/inkscape/file_export.xpm
+ /usr/bin/install -c -p -m 644 file_import.xpm /usr/local/share/inkscape/file_import.xpm
+ /usr/bin/install -c -p -m 644 file_new.xpm /usr/local/share/inkscape/file_new.xpm
+ /usr/bin/install -c -p -m 644 file_open.xpm /usr/local/share/inkscape/file_open.xpm
+ /usr/bin/install -c -p -m 644 file_print.xpm /usr/local/share/inkscape/file_print.xpm
+ /usr/bin/install -c -p -m 644 file_print_preview.xpm /usr/local/share/inkscape/file_print_preview.xpm
+ /usr/bin/install -c -p -m 644 file_save.xpm /usr/local/share/inkscape/file_save.xpm
+ /usr/bin/install -c -p -m 644 file_save_as.xpm /usr/local/share/inkscape/file_save_as.xpm
+ /usr/bin/install -c -p -m 644 fill.xpm /usr/local/share/inkscape/fill.xpm
+ /usr/bin/install -c -p -m 644 fill_fractal.xpm /usr/local/share/inkscape/fill_fractal.xpm
+ /usr/bin/install -c -p -m 644 fill_gradient.xpm /usr/local/share/inkscape/fill_gradient.xpm
+ /usr/bin/install -c -p -m 644 fill_radial.xpm /usr/local/share/inkscape/fill_radial.xpm
+ /usr/bin/install -c -p -m 644 fill_none.xpm /usr/local/share/inkscape/fill_none.xpm
+ /usr/bin/install -c -p -m 644 fill_pattern.xpm /usr/local/share/inkscape/fill_pattern.xpm
+ /usr/bin/install -c -p -m 644 fill_solid.xpm /usr/local/share/inkscape/fill_solid.xpm
+ /usr/bin/install -c -p -m 644 flip_hor.xpm /usr/local/share/inkscape/flip_hor.xpm
+ /usr/bin/install -c -p -m 644 flip_ver.xpm /usr/local/share/inkscape/flip_ver.xpm
+ /usr/bin/install -c -p -m 644 font.xpm /usr/local/share/inkscape/font.xpm
+ /usr/bin/install -c -p -m 644 forward.xpm /usr/local/share/inkscape/forward.xpm
+ /usr/bin/install -c -p -m 644 freehand.xpm /usr/local/share/inkscape/freehand.xpm
+ /usr/bin/install -c -p -m 644 join.xpm /usr/local/share/inkscape/join.xpm
+ /usr/bin/install -c -p -m 644 join_bevel.xpm /usr/local/share/inkscape/join_bevel.xpm
+ /usr/bin/install -c -p -m 644 join_miter.xpm /usr/local/share/inkscape/join_miter.xpm
+ /usr/bin/install -c -p -m 644 join_round.xpm /usr/local/share/inkscape/join_round.xpm
+ /usr/bin/install -c -p -m 644 line.xpm /usr/local/share/inkscape/line.xpm
+ /usr/bin/install -c -p -m 644 line_dashed.xpm /usr/local/share/inkscape/line_dashed.xpm
+ /usr/bin/install -c -p -m 644 line_doubled.xpm /usr/local/share/inkscape/line_doubled.xpm
+ /usr/bin/install -c -p -m 644 line_full.xpm /usr/local/share/inkscape/line_full.xpm
+ /usr/bin/install -c -p -m 644 lock_aspect_no.xpm /usr/local/share/inkscape/lock_aspect_no.xpm
+ /usr/bin/install -c -p -m 644 lock_aspect_yes.xpm /usr/local/share/inkscape/lock_aspect_yes.xpm
+ /usr/bin/install -c -p -m 644 move.xpm /usr/local/share/inkscape/move.xpm
+ /usr/bin/install -c -p -m 644 node.xpm /usr/local/share/inkscape/node.xpm
+ /usr/bin/install -c -p -m 644 node_break.xpm /usr/local/share/inkscape/node_break.xpm
+ /usr/bin/install -c -p -m 644 node_curve.xpm /usr/local/share/inkscape/node_curve.xpm
+ /usr/bin/install -c -p -m 644 node_cusp.xpm /usr/local/share/inkscape/node_cusp.xpm
+ /usr/bin/install -c -p -m 644 node_delete.xpm /usr/local/share/inkscape/node_delete.xpm
+ /usr/bin/install -c -p -m 644 node_insert.xpm /usr/local/share/inkscape/node_insert.xpm
+ /usr/bin/install -c -p -m 644 node_join.xpm /usr/local/share/inkscape/node_join.xpm
+ /usr/bin/install -c -p -m 644 node_line.xpm /usr/local/share/inkscape/node_line.xpm
+ /usr/bin/install -c -p -m 644 node_smooth.xpm /usr/local/share/inkscape/node_smooth.xpm
+ /usr/bin/install -c -p -m 644 node_symetric.xpm /usr/local/share/inkscape/node_symetric.xpm
+ /usr/bin/install -c -p -m 644 object_align.xpm /usr/local/share/inkscape/object_align.xpm
+ /usr/bin/install -c -p -m 644 object_fill.xpm /usr/local/share/inkscape/object_fill.xpm
+ /usr/bin/install -c -p -m 644 object_flip_hor.xpm /usr/local/share/inkscape/object_flip_hor.xpm
+ /usr/bin/install -c -p -m 644 object_flip_ver.xpm /usr/local/share/inkscape/object_flip_ver.xpm
+ /usr/bin/install -c -p -m 644 object_font.xpm /usr/local/share/inkscape/object_font.xpm
+ /usr/bin/install -c -p -m 644 object_layout.xpm /usr/local/share/inkscape/object_layout.xpm
+ /usr/bin/install -c -p -m 644 object_reset.xpm /usr/local/share/inkscape/object_reset.xpm
+ /usr/bin/install -c -p -m 644 object_rotate.xpm /usr/local/share/inkscape/object_rotate.xpm
+ /usr/bin/install -c -p -m 644 object_stroke.xpm /usr/local/share/inkscape/object_stroke.xpm
+ /usr/bin/install -c -p -m 644 object_tocurve.xpm /usr/local/share/inkscape/object_tocurve.xpm
+ /usr/bin/install -c -p -m 644 object_trans.xpm /usr/local/share/inkscape/object_trans.xpm
+ /usr/bin/install -c -p -m 644 origin.xpm /usr/local/share/inkscape/origin.xpm
+ /usr/bin/install -c -p -m 644 properties_fill.xpm /usr/local/share/inkscape/properties_fill.xpm
+ /usr/bin/install -c -p -m 644 properties_layout.xpm /usr/local/share/inkscape/properties_layout.xpm
+ /usr/bin/install -c -p -m 644 properties_stroke.xpm /usr/local/share/inkscape/properties_stroke.xpm
+ /usr/bin/install -c -p -m 644 quit_nope.xpm /usr/local/share/inkscape/quit_nope.xpm
+ /usr/bin/install -c -p -m 644 quit_yep.xpm /usr/local/share/inkscape/quit_yep.xpm
+ /usr/bin/install -c -p -m 644 rect.xpm /usr/local/share/inkscape/rect.xpm
+ /usr/bin/install -c -p -m 644 reread.xpm /usr/local/share/inkscape/reread.xpm
+ /usr/bin/install -c -p -m 644 rotate.xpm /usr/local/share/inkscape/rotate.xpm
+ /usr/bin/install -c -p -m 644 rotate_left.xpm /usr/local/share/inkscape/rotate_left.xpm
+ /usr/bin/install -c -p -m 644 rotate_right.xpm /usr/local/share/inkscape/rotate_right.xpm
+ /usr/bin/install -c -p -m 644 scale.xpm /usr/local/share/inkscape/scale.xpm
+ /usr/bin/install -c -p -m 644 scale_hor.xpm /usr/local/share/inkscape/scale_hor.xpm
+ /usr/bin/install -c -p -m 644 scale_ver.xpm /usr/local/share/inkscape/scale_ver.xpm
+ /usr/bin/install -c -p -m 644 select.xpm /usr/local/share/inkscape/select.xpm
+ /usr/bin/install -c -p -m 644 selection_bot.xpm /usr/local/share/inkscape/selection_bot.xpm
+ /usr/bin/install -c -p -m 644 selection_break.xpm /usr/local/share/inkscape/selection_break.xpm
+ /usr/bin/install -c -p -m 644 selection_combine.xpm /usr/local/share/inkscape/selection_combine.xpm
+ /usr/bin/install -c -p -m 644 selection_down.xpm /usr/local/share/inkscape/selection_down.xpm
+ /usr/bin/install -c -p -m 644 selection_group.xpm /usr/local/share/inkscape/selection_group.xpm
+ /usr/bin/install -c -p -m 644 selection_top.xpm /usr/local/share/inkscape/selection_top.xpm
+ /usr/bin/install -c -p -m 644 selection_ungroup.xpm /usr/local/share/inkscape/selection_ungroup.xpm
+ /usr/bin/install -c -p -m 644 selection_up.xpm /usr/local/share/inkscape/selection_up.xpm
+ /usr/bin/install -c -p -m 644 seperate_tool.xpm /usr/local/share/inkscape/seperate_tool.xpm
+ /usr/bin/install -c -p -m 644 set.xpm /usr/local/share/inkscape/set.xpm
+ /usr/bin/install -c -p -m 644 skew.xpm /usr/local/share/inkscape/skew.xpm
+ /usr/bin/install -c -p -m 644 skew_hor.xpm /usr/local/share/inkscape/skew_hor.xpm
+ /usr/bin/install -c -p -m 644 skew_ver.xpm /usr/local/share/inkscape/skew_ver.xpm
+ /usr/bin/install -c -p -m 644 smooth.xpm /usr/local/share/inkscape/smooth.xpm
+ /usr/bin/install -c -p -m 644 stroke.xpm /usr/local/share/inkscape/stroke.xpm
+ /usr/bin/install -c -p -m 644 sym.xpm /usr/local/share/inkscape/sym.xpm
+ /usr/bin/install -c -p -m 644 text.xpm /usr/local/share/inkscape/text.xpm
+ /usr/bin/install -c -p -m 644 toback.xpm /usr/local/share/inkscape/toback.xpm
+ /usr/bin/install -c -p -m 644 tofront.xpm /usr/local/share/inkscape/tofront.xpm
+ /usr/bin/install -c -p -m 644 toolbox_draw.xpm /usr/local/share/inkscape/toolbox_draw.xpm
+ /usr/bin/install -c -p -m 644 toolbox_edit.xpm /usr/local/share/inkscape/toolbox_edit.xpm
+ /usr/bin/install -c -p -m 644 toolbox_file.xpm /usr/local/share/inkscape/toolbox_file.xpm
+ /usr/bin/install -c -p -m 644 toolbox_node.xpm /usr/local/share/inkscape/toolbox_node.xpm
+ /usr/bin/install -c -p -m 644 toolbox_object.xpm /usr/local/share/inkscape/toolbox_object.xpm
+ /usr/bin/install -c -p -m 644 toolbox_select.xpm /usr/local/share/inkscape/toolbox_select.xpm
+ /usr/bin/install -c -p -m 644 toolbox_zoom.xpm /usr/local/share/inkscape/toolbox_zoom.xpm
+ /usr/bin/install -c -p -m 644 unknown.xpm /usr/local/share/inkscape/unknown.xpm
+ /usr/bin/install -c -p -m 644 writing_mode_lr.xpm /usr/local/share/inkscape/writing_mode_lr.xpm
+ /usr/bin/install -c -p -m 644 writing_mode_tb.xpm /usr/local/share/inkscape/writing_mode_tb.xpm
+ /usr/bin/install -c -p -m 644 zoom.xpm /usr/local/share/inkscape/zoom.xpm
+ /usr/bin/install -c -p -m 644 zoom_1_to_1.xpm /usr/local/share/inkscape/zoom_1_to_1.xpm
+ /usr/bin/install -c -p -m 644 zoom_1_to_2.xpm /usr/local/share/inkscape/zoom_1_to_2.xpm
+ /usr/bin/install -c -p -m 644 zoom_2_to_1.xpm /usr/local/share/inkscape/zoom_2_to_1.xpm
+ /usr/bin/install -c -p -m 644 zoom_draw.xpm /usr/local/share/inkscape/zoom_draw.xpm
+ /usr/bin/install -c -p -m 644 zoom_in.xpm /usr/local/share/inkscape/zoom_in.xpm
+ /usr/bin/install -c -p -m 644 zoom_out.xpm /usr/local/share/inkscape/zoom_out.xpm
+ /usr/bin/install -c -p -m 644 zoom_page.xpm /usr/local/share/inkscape/zoom_page.xpm
+ /usr/bin/install -c -p -m 644 zoom_select.xpm /usr/local/share/inkscape/zoom_select.xpm
+ /usr/bin/install -c -p -m 644 guide_dialog.png /usr/local/share/inkscape/guide_dialog.png
+ /usr/bin/install -c -p -m 644 about.svg /usr/local/share/inkscape/about.svg
+ /usr/bin/install -c -p -m 644 icons.svg /usr/local/share/inkscape/icons.svg
+make[2]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/glade'
+make[1]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/glade'
+Making install in po
+make[1]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/po'
+if test -r ".././mkinstalldirs"; then \
+	  .././mkinstalldirs /usr/local/share; \
+	else \
+	  /bin/sh ../mkinstalldirs /usr/local/share; \
+	fi
+mkdir -p -- /usr/local/share/locale/am/LC_MESSAGES
+installing am.gmo as /usr/local/share/locale/am/LC_MESSAGES/inkscape.mo
+mkdir -p -- /usr/local/share/locale/az/LC_MESSAGES
+installing az.gmo as /usr/local/share/locale/az/LC_MESSAGES/inkscape.mo
+mkdir -p -- /usr/local/share/locale/be/LC_MESSAGES
+installing be.gmo as /usr/local/share/locale/be/LC_MESSAGES/inkscape.mo
+mkdir -p -- /usr/local/share/locale/ca/LC_MESSAGES
+installing ca.gmo as /usr/local/share/locale/ca/LC_MESSAGES/inkscape.mo
+installing cs.gmo as /usr/local/share/locale/cs/LC_MESSAGES/inkscape.mo
+mkdir -p -- /usr/local/share/locale/da/LC_MESSAGES
+installing da.gmo as /usr/local/share/locale/da/LC_MESSAGES/inkscape.mo
+installing de.gmo as /usr/local/share/locale/de/LC_MESSAGES/inkscape.mo
+mkdir -p -- /usr/local/share/locale/el/LC_MESSAGES
+installing el.gmo as /usr/local/share/locale/el/LC_MESSAGES/inkscape.mo
+installing es.gmo as /usr/local/share/locale/es/LC_MESSAGES/inkscape.mo
+mkdir -p -- /usr/local/share/locale/et/LC_MESSAGES
+installing et.gmo as /usr/local/share/locale/et/LC_MESSAGES/inkscape.mo
+installing fr.gmo as /usr/local/share/locale/fr/LC_MESSAGES/inkscape.mo
+mkdir -p -- /usr/local/share/locale/ga/LC_MESSAGES
+installing ga.gmo as /usr/local/share/locale/ga/LC_MESSAGES/inkscape.mo
+installing gl.gmo as /usr/local/share/locale/gl/LC_MESSAGES/inkscape.mo
+installing hu.gmo as /usr/local/share/locale/hu/LC_MESSAGES/inkscape.mo
+installing it.gmo as /usr/local/share/locale/it/LC_MESSAGES/inkscape.mo
+installing ja.gmo as /usr/local/share/locale/ja/LC_MESSAGES/inkscape.mo
+installing nl.gmo as /usr/local/share/locale/nl/LC_MESSAGES/inkscape.mo
+installing no.gmo as /usr/local/share/locale/no/LC_MESSAGES/inkscape.mo
+installing ru.gmo as /usr/local/share/locale/ru/LC_MESSAGES/inkscape.mo
+mkdir -p -- /usr/local/share/locale/sk/LC_MESSAGES
+installing sk.gmo as /usr/local/share/locale/sk/LC_MESSAGES/inkscape.mo
+mkdir -p -- /usr/local/share/locale/sl/LC_MESSAGES
+installing sl.gmo as /usr/local/share/locale/sl/LC_MESSAGES/inkscape.mo
+mkdir -p -- /usr/local/share/locale/sr/LC_MESSAGES
+installing sr.gmo as /usr/local/share/locale/sr/LC_MESSAGES/inkscape.mo
+mkdir -p -- /usr/local/share/locale/sr@Latn/LC_MESSAGES
+installing sr@Latn.gmo as /usr/local/share/locale/sr@Latn/LC_MESSAGES/inkscape.mo
+installing sv.gmo as /usr/local/share/locale/sv/LC_MESSAGES/inkscape.mo
+installing tr.gmo as /usr/local/share/locale/tr/LC_MESSAGES/inkscape.mo
+installing uk.gmo as /usr/local/share/locale/uk/LC_MESSAGES/inkscape.mo
+installing pl.gmo as /usr/local/share/locale/pl/LC_MESSAGES/inkscape.mo
+installing pt_BR.gmo as /usr/local/share/locale/pt_BR/LC_MESSAGES/inkscape.mo
+mkdir -p -- /usr/local/share/locale/pt/LC_MESSAGES
+installing pt.gmo as /usr/local/share/locale/pt/LC_MESSAGES/inkscape.mo
+installing zh_CN.gmo as /usr/local/share/locale/zh_CN/LC_MESSAGES/inkscape.mo
+if test "inkscape" = "glib"; then \
+	  if test -r ".././mkinstalldirs"; then \
+	    .././mkinstalldirs /usr/local/share/glib-2.0/gettext/po; \
+	  else \
+	    /bin/sh ../mkinstalldirs /usr/local/share/glib-2.0/gettext/po; \
+	  fi; \
+	  /usr/bin/install -c -p -m 644 ./Makefile.in.in \
+			  /usr/local/share/glib-2.0/gettext/po/Makefile.in.in; \
+	else \
+	  : ; \
+	fi
+make[1]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/po'
+Making install in extensions
+make[1]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/extensions'
+make[2]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/extensions'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs /usr/local/lib/inkscape/extensions
+ /usr/bin/install -c -p roundhole /usr/local/lib/inkscape/extensions/roundhole
+ /usr/bin/install -c -p ill2svg.pl /usr/local/lib/inkscape/extensions/ill2svg.pl
+ /usr/bin/install -c -p dia2svg.sh /usr/local/lib/inkscape/extensions/dia2svg.sh
+/bin/sh ../mkinstalldirs /usr/local/share/inkscape/modules
+ /usr/bin/install -c -p -m 644 svgz_input.inkmod /usr/local/share/inkscape/modules/svgz_input.inkmod
+ /usr/bin/install -c -p -m 644 svgz_output.inkmod /usr/local/share/inkscape/modules/svgz_output.inkmod
+ /usr/bin/install -c -p -m 644 ai_input.inkmod /usr/local/share/inkscape/modules/ai_input.inkmod
+ /usr/bin/install -c -p -m 644 roundhole.inkmod /usr/local/share/inkscape/modules/roundhole.inkmod
+ /usr/bin/install -c -p -m 644 dia.inkmod /usr/local/share/inkscape/modules/dia.inkmod
+/bin/sh ../mkinstalldirs /usr/local/share/inkscape/extensions
+ /usr/bin/install -c -p -m 644 roundhole.xpm /usr/local/share/inkscape/extensions/roundhole.xpm
+make[2]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/extensions'
+make[1]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2/extensions'
+make[1]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2'
+make[2]: Entering directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ./mkinstalldirs /usr/local/share/applications
+ /usr/bin/install -c -p -m 644 inkscape.desktop /usr/local/share/applications/inkscape.desktop
+/bin/sh ./mkinstalldirs /usr/local/share/pixmaps
+ /usr/bin/install -c -p -m 644 inkscape.png /usr/local/share/pixmaps/inkscape.png
+/bin/sh ./mkinstalldirs /usr/local/man/man1
+ /usr/bin/install -c -p -m 644 ./inkscape.1 /usr/local/man/man1/inkscape.1
+make[2]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2'
+make[1]: Leaving directory `/initrd/mnt/dev_save/puppy/sources-compiled-in-210/inkscapelite-0.36.2'
