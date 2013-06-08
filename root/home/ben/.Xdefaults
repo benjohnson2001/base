@@ -75,6 +75,8 @@ urxvt.keysym.C-equal: command:\033]710;xft:Droid Sans Mono Slashed:pixelsize=14:
 ! -------------------------------
 urxvt*scrollBar: true
 urxvt*scrollstyle: plain
+urxvt*scrollColor: #191919
+urxvt*borderColor: #000000
 urxvt*saveLines: 65535
 urxvt.secondaryScroll: true
 
